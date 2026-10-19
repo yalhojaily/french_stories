@@ -1,0 +1,471 @@
+# الأسبوع الثاني: الحياة اليومية
+
+@id 06
+@week 2
+@title Le matin
+@title_ar الصباح
+@summary صباح ليا من الاستيقاظ حتى الوصول إلى الجامعة.
+@grammar_title الأفعال المنتهية بـ ‎-er
+@grammar أغلب الأفعال الفرنسية تنتهي بـ ‎-er وتُصرَّف بنفس الطريقة: نحذف ‎-er ونضيف النهاية.
+@grammar النهايات ‎-e و‎-es و‎-ent لا تُنطق، لذلك je parle وtu parles وils parlent تُنطق كلها «بارل».
+@table je parle | أتكلم
+@table tu parles | تتكلم
+@table il / elle parle | يتكلم / تتكلم
+@table nous parlons | نتكلم
+@table vous parlez | تتكلمون
+@table ils / elles parlent | يتكلمون
+@table à sept heures | في الساعة السابعة
+
+> Le matin, je me lève à sept heures. | في الصباح أستيقظ في السابعة.
+Le matin = في الصباح
+je = أنا
+me lève = أنهض | l=se lever | n=فعل انعكاسي: «أُنهِض نفسي»
+à = في (للوقت)
+sept = سبعة
+heures = ساعات | l=heure | g=f | n=à sept heures = في الساعة السابعة
+
+> Je prépare un café et je mange une tartine. | أحضّر قهوة وآكل شريحة خبز.
+Je = أنا
+prépare = أحضّر | l=préparer
+un = (أداة نكرة للمذكر)
+café = قهوة | g=m
+et = و
+je = أنا
+mange = آكل | l=manger
+une = (أداة نكرة للمؤنث)
+tartine = شريحة خبز | g=f | n=خبز مدهون بالزبدة أو المربى، فطور فرنسي تقليدي
+
+> Chloé travaille tôt, elle quitte la maison à six heures. | كلوي تعمل باكراً، تغادر البيت في السادسة.
+Chloé = كلوي
+travaille = تعمل | l=travailler
+tôt = باكراً
+elle = هي
+quitte = تغادر | l=quitter
+la = الـ (للمؤنث)
+maison = بيت | g=f
+à = في
+six = ستة
+heures = ساعات | l=heure | g=f
+
+> Moi, je commence les cours à neuf heures. | أما أنا، فأبدأ الدروس في التاسعة.
+Moi = أنا (للتأكيد) | n=Moi, je… = «أما أنا فـ…»
+je = أنا
+commence = أبدأ | l=commencer
+les = الـ (للجمع)
+cours = دروس | l=cours | g=m | n=لا تتغير في الجمع
+à = في
+neuf = تسعة | n=تعني أيضاً «جديد»
+heures = ساعات | l=heure | g=f
+
+> Je marche jusqu'à la station de métro. | أمشي حتى محطة المترو.
+Je = أنا
+marche = أمشي | l=marcher
+jusqu'à = حتى / إلى
+la = الـ (للمؤنث)
+station = محطة | g=f
+de = (حرف إضافة: محطةُ المترو)
+métro = مترو | g=m
+
+> Dans le métro, j'écoute de la musique. | في المترو أستمع إلى موسيقى.
+Dans = في
+le = الـ (للمذكر)
+métro = مترو | g=m
+j'écoute = أستمع | l=écouter
+de la = بعض | n=أداة التجزئة: كمية غير محددة من شيء
+musique = موسيقى | g=f
+
+> Les gens parlent au téléphone ou regardent leur portable. | الناس يتكلمون في الهاتف أو ينظرون إلى هواتفهم.
+Les = الـ (للجمع)
+gens = ناس | g=m
+parlent = يتكلمون | l=parler | n=ent لا تُنطق
+au = في الـ | n=à + le = au
+téléphone = هاتف | g=m
+ou = أو
+regardent = ينظرون إلى | l=regarder
+leur = ـهم
+portable = هاتف محمول | g=m
+
+> Inès et moi, nous arrivons à l'université à neuf heures moins cinq. | أنا وإنيس نصل إلى الجامعة في التاسعة إلا خمس دقائق.
+Inès = إنيس
+et = و
+moi = أنا
+nous = نحن
+arrivons = نصل | l=arriver | n=ons تُنطق «ون» الأنفية
+à = إلى
+l'université = الجامعة | l=université | g=f
+à = في
+neuf = تسعة
+heures = ساعات | l=heure | g=f
+moins = إلا / ناقص
+cinq = خمسة
+
+
+@id 07
+@week 2
+@title Au marché
+@title_ar في السوق
+@summary ليا وأختها تشتريان الخضار والفواكه من السوق.
+@grammar_title السؤال والنفي
+@grammar أسهل طريقة للسؤال: ضع Est-ce que في أول الجملة. Vous avez des tomates ← Est-ce que vous avez des tomates ?
+@grammar النفي يحيط بالفعل: ne + فعل + pas. وقبل حرف العلة تصبح ne إلى n'.
+@table Est-ce que… ? | هل…؟
+@table Combien… ? | كم…؟
+@table je n'ai pas | ليس لدي
+@table elle n'aime pas | هي لا تحب
+@table du / de la / des | بعض (مذكر / مؤنث / جمع)
+
+> Le dimanche matin, Léa et Chloé sont au marché. | صباح كل أحد، تكون ليا وكلوي في السوق.
+Le dimanche matin = صباح كل أحد | n=le قبل اسم اليوم تعني «كل أسبوع في هذا اليوم»
+Léa = ليا
+et = و
+Chloé = كلوي
+sont = تكونان | l=être
+au = في الـ | n=à + le
+marché = سوق | g=m
+
+> Bonjour madame ! Est-ce que vous avez des tomates ? | صباح الخير سيدتي! هل عندكِ طماطم؟
+Bonjour = صباح الخير
+madame = سيدتي
+Est-ce que = هل | n=تحوّل أي جملة إلى سؤال
+vous = أنتِ (رسمي) | n=vous للاحترام مع الغرباء، حتى لو كان المخاطَب واحداً
+avez = لديك | l=avoir
+des = (أداة نكرة للجمع)
+tomates = طماطم | l=tomate | g=f
+
+> Oui, bien sûr. Elles sont très bonnes aujourd'hui. | نعم، طبعاً. إنها طيبة جداً اليوم.
+Oui = نعم
+bien sûr = طبعاً
+Elles = هنّ | n=تعود على tomates المؤنثة
+sont = تكون | l=être
+très = جداً
+bonnes = طيبة | l=bon
+aujourd'hui = اليوم
+
+> Combien coûte un kilo ? | كم ثمن الكيلو؟
+Combien = كم
+coûte = يكلّف | l=coûter
+un = (أداة نكرة للمذكر)
+kilo = كيلو | g=m
+
+> Trois euros le kilo. | ثلاثة يورو للكيلو.
+Trois = ثلاثة
+euros = يورو | l=euro | g=m
+le = الـ (هنا: لكل) | n=في الأسعار: trois euros le kilo = ثلاثة يورو لكل كيلو
+kilo = كيلو | g=m
+
+> Un kilo, s'il vous plaît. Et des pommes ? | كيلو من فضلك. وهل عندك تفاح؟
+Un = واحد / (أداة نكرة)
+kilo = كيلو | g=m
+s'il vous plaît = من فضلك | n=الصيغة الرسمية
+Et = و
+des = (أداة نكرة للجمع)
+pommes = تفاح | l=pomme | g=f
+
+> Désolée, je n'ai pas de pommes aujourd'hui. | آسفة، ليس لديّ تفاح اليوم.
+Désolée = آسفة | l=désolé
+je = أنا
+n'ai = لا أملك | l=avoir | n=ne + ai
+pas = (أداة النفي الثانية)
+de = (بدل des بعد النفي)
+pommes = تفاح | l=pomme | g=f
+aujourd'hui = اليوم
+
+> Chloé n'aime pas les fraises, mais Léa adore ça. | كلوي لا تحب الفراولة، لكن ليا تعشقها.
+Chloé = كلوي
+n'aime = لا تحب | l=aimer
+pas = (أداة النفي الثانية)
+les = الـ (للجمع) | n=مع أفعال الحب والكره نستعمل le / la / les
+fraises = فراولة | l=fraise | g=f
+mais = لكن
+Léa = ليا
+adore = تعشق | l=adorer
+ça = هذا / ذلك
+
+> Elles achètent aussi du pain et du fromage. | تشتريان أيضاً خبزاً وجبناً.
+Elles = هما / هنّ
+achètent = يشترين | l=acheter
+aussi = أيضاً
+du = بعض | n=du = de + le. كمية غير محددة من شيء مذكر
+pain = خبز | g=m
+et = و
+du = بعض
+fromage = جبن | g=m | n=في فرنسا أكثر من ألف نوع من الجبن
+
+
+@id 08
+@week 2
+@title Au travail
+@title_ar في العمل
+@summary يوم عمل كريم في المقهى، وحلمه الكبير.
+@grammar_title أيام الأسبوع والوقت
+@grammar أيام الأسبوع مذكرة وتُكتب بحرف صغير. le lundi = كل اثنين، أما lundi وحدها فتعني الاثنين القادم أو الماضي.
+@grammar «من… إلى…» تُقال du … au …: du lundi au vendredi.
+@table lundi · mardi · mercredi | الاثنين · الثلاثاء · الأربعاء
+@table jeudi · vendredi | الخميس · الجمعة
+@table samedi · dimanche | السبت · الأحد
+@table le matin · l'après-midi · le soir | الصباح · بعد الظهر · المساء
+
+> Karim travaille au café du lundi au vendredi. | يعمل كريم في المقهى من الاثنين إلى الجمعة.
+Karim = كريم
+travaille = يعمل | l=travailler
+au = في الـ | n=à + le
+café = مقهى | g=m
+du = من الـ | n=de + le
+lundi = الاثنين | g=m
+au = إلى الـ
+vendredi = الجمعة | g=m
+
+> Il commence à huit heures et il termine à quatre heures. | يبدأ في الثامنة وينتهي في الرابعة.
+Il = هو
+commence = يبدأ | l=commencer
+à = في
+huit = ثمانية
+heures = ساعات | l=heure | g=f
+et = و
+il = هو
+termine = ينهي | l=terminer
+à = في
+quatre = أربعة
+heures = ساعات | l=heure | g=f
+
+> Le matin, les clients sont pressés. | في الصباح، الزبائن مستعجلون.
+Le matin = في الصباح
+les = الـ (للجمع)
+clients = زبائن | l=client | g=m
+sont = يكونون | l=être
+pressés = مستعجلون | l=pressé
+
+> Ils commandent un café et ils partent vite. | يطلبون قهوة ويغادرون بسرعة.
+Ils = هم
+commandent = يطلبون | l=commander
+un = (أداة نكرة للمذكر)
+café = قهوة | g=m
+et = و
+ils = هم
+partent = يغادرون | l=partir | n=فعل غير منتظم
+vite = بسرعة
+
+> L'après-midi, c'est plus calme. | بعد الظهر يكون الوضع أهدأ.
+L'après-midi = بعد الظهر | g=m
+c'est = إنه / الوضع | n=c'est = ce + est. من أكثر العبارات استعمالاً
+plus = أكثر
+calme = هادئ
+
+> Karim nettoie les tables et range les tasses. | كريم ينظّف الطاولات ويرتّب الفناجين.
+Karim = كريم
+nettoie = ينظّف | l=nettoyer
+les = الـ (للجمع)
+tables = طاولات | l=table | g=f
+et = و
+range = يرتّب | l=ranger
+les = الـ (للجمع)
+tasses = فناجين | l=tasse | g=f
+
+> Son patron, Monsieur Lefèvre, est sévère mais juste. | مديره، السيد لوفيفر، صارم لكنه عادل.
+Son = ـه (للمذكر)
+patron = مدير / رب العمل | g=m
+Monsieur = السيد
+Lefèvre = لوفيفر
+est = يكون | l=être
+sévère = صارم
+mais = لكن
+juste = عادل | n=تعني أيضاً «فقط»
+
+> Le mardi, Karim ne travaille pas : il étudie la cuisine. | كل ثلاثاء لا يعمل كريم: إنه يدرس الطبخ.
+Le mardi = كل ثلاثاء
+Karim = كريم
+ne = لا
+travaille = يعمل | l=travailler
+pas = (أداة النفي الثانية)
+il = هو
+étudie = يدرس | l=étudier
+la = الـ (للمؤنث)
+cuisine = الطبخ | g=f | n=هنا تعني «فن الطبخ»، وفي قصة الشقة كانت تعني «المطبخ»
+
+> Il rêve d'ouvrir un restaurant. | يحلم بأن يفتح مطعماً.
+Il = هو
+rêve = يحلم | l=rêver
+d'ouvrir = بأن يفتح | l=ouvrir | n=rêver de + مصدر
+un = (أداة نكرة للمذكر)
+restaurant = مطعم | g=m
+
+
+@id 09
+@week 2
+@title Le samedi
+@title_ar يوم السبت
+@summary كيف يقضي كل واحد من الأصدقاء يوم السبت.
+@grammar_title الحب والكره + المصدر
+@grammar بعد aimer وadorer وpréférer وdétester نضع الفعل الثاني في المصدر مباشرة: J'aime danser (أحب الرقص).
+@grammar ومع الأسماء نستعمل أداة التعريف دائماً: Elle déteste le sport.
+@table j'aime dormir | أحب النوم
+@table j'adore dessiner | أعشق الرسم
+@table je préfère regarder | أفضّل المشاهدة
+@table je déteste le sport | أكره الرياضة
+
+> Le samedi, Léa ne travaille pas. | ليا لا تعمل أيام السبت.
+Le samedi = كل سبت
+Léa = ليا
+ne = لا
+travaille = تعمل | l=travailler
+pas = (أداة النفي الثانية)
+
+> Elle aime dormir tard. | تحب أن تنام حتى وقت متأخر.
+Elle = هي
+aime = تحب | l=aimer
+dormir = أن تنام | n=مصدر
+tard = متأخراً
+
+> L'après-midi, elle dessine au jardin du Luxembourg. | بعد الظهر ترسم في حديقة لوكسمبورغ.
+L'après-midi = بعد الظهر | g=m
+elle = هي
+dessine = ترسم | l=dessiner
+au = في الـ
+jardin = حديقة | g=m
+du = (حرف إضافة: حديقةُ…) | n=de + le
+Luxembourg = لوكسمبورغ | n=حديقة شهيرة في قلب باريس
+
+> Elle adore dessiner les arbres et les gens. | تعشق رسم الأشجار والناس.
+Elle = هي
+adore = تعشق | l=adorer
+dessiner = أن ترسم | n=مصدر
+les = الـ (للجمع)
+arbres = أشجار | l=arbre | g=m
+et = و
+les = الـ (للجمع)
+gens = ناس | g=m
+
+> Karim préfère regarder le football à la télé. | كريم يفضّل مشاهدة كرة القدم على التلفاز.
+Karim = كريم
+préfère = يفضّل | l=préférer
+regarder = أن يشاهد | n=مصدر
+le = الـ (للمذكر)
+football = كرة القدم | g=m
+à la = على الـ / في الـ
+télé = تلفاز | g=f | n=اختصار télévision
+
+> Inès déteste le sport, mais elle aime danser. | إنيس تكره الرياضة، لكنها تحب الرقص.
+Inès = إنيس
+déteste = تكره | l=détester
+le = الـ (للمذكر)
+sport = رياضة | g=m
+mais = لكن
+elle = هي
+aime = تحب | l=aimer
+danser = أن ترقص | n=مصدر
+
+> Le soir, les trois amis mangent ensemble chez Karim. | في المساء يأكل الأصدقاء الثلاثة معاً عند كريم.
+Le soir = في المساء
+les = الـ (للجمع)
+trois = ثلاثة
+amis = أصدقاء | l=ami | g=m
+mangent = يأكلون | l=manger
+ensemble = معاً
+chez = عند / في بيت | n=chez Karim = في بيت كريم
+Karim = كريم
+
+> Karim cuisine des pâtes. | كريم يطبخ معكرونة.
+Karim = كريم
+cuisine = يطبخ | l=cuisiner | n=هنا فعل! نفس كلمة «مطبخ» لكن بمعنى آخر
+des = (أداة نكرة للجمع)
+pâtes = معكرونة | l=pâte | g=f
+
+> C'est simple, mais c'est délicieux ! | إنه بسيط، لكنه لذيذ!
+C'est = إنه
+simple = بسيط
+mais = لكن
+c'est = إنه
+délicieux = لذيذ
+
+
+@id 10
+@week 2
+@title Au téléphone
+@title_ar على الهاتف
+@summary أم ليا تتصل لتخبرها بزيارة قريبة إلى باريس.
+@grammar_title كلمات السؤال
+@grammar كلمة السؤال تأتي في البداية، ويمكن أن يتبعها est-ce que: Quand est-ce que vous arrivez ?
+@grammar وفي السؤال القصير يُقلب الفعل والضمير مع شَرطة: Où es-tu ?
+@table Où ? | أين؟
+@table Quand ? | متى؟
+@table Qui ? | من؟
+@table Pourquoi ? | لماذا؟
+@table Comment ? | كيف؟
+
+> Le téléphone de Léa sonne. C'est sa mère. | يرنّ هاتف ليا. إنها أمها.
+Le = الـ (للمذكر)
+téléphone = هاتف | g=m
+de = (حرف إضافة: هاتفُ ليا) | n=الملكية: le téléphone de Léa = هاتف ليا
+Léa = ليا
+sonne = يرنّ | l=sonner
+C'est = إنها
+sa = ـها (للمؤنث) | n=sa تتبع جنس mère، لا جنس ليا
+mère = أم | g=f
+
+> Allô, Léa ? C'est maman ! | ألو، ليا؟ أنا ماما!
+Allô = ألو | n=تُستعمل فقط على الهاتف
+Léa = ليا
+C'est = إنها / أنا
+maman = ماما | g=f
+
+> Bonjour maman ! Comment ça va ? | مرحباً ماما! كيف حالك؟
+Bonjour = مرحباً
+maman = ماما | g=f
+Comment ça va = كيف حالك؟ | n=أوسع من Ça va قليلاً
+
+> Très bien. Où es-tu ? | بخير جداً. أين أنتِ؟
+Très = جداً
+bien = جيد
+Où = أين
+es-tu = أنتِ (تكونين) | l=être | n=قلب الفعل والضمير لصياغة السؤال: tu es ← es-tu
+
+> Je suis à la bibliothèque. Pourquoi ? | أنا في المكتبة. لماذا؟
+Je = أنا
+suis = أكون | l=être
+à la = في الـ
+bibliothèque = مكتبة | g=f | n=مكتبة للقراءة والاستعارة. محل بيع الكتب: librairie
+Pourquoi = لماذا
+
+> Ton père et moi, nous arrivons à Paris samedi. | أنا ووالدك نصل إلى باريس يوم السبت.
+Ton = ـك (للمذكر)
+père = أب | g=m
+et = و
+moi = أنا
+nous = نحن
+arrivons = نصل | l=arriver | n=المضارع يُستعمل كثيراً للمستقبل القريب المؤكد
+à = إلى
+Paris = باريس
+samedi = يوم السبت | g=m
+
+> Super ! Quand est-ce que vous arrivez ? | رائع! متى تصلان؟
+Super = رائع
+Quand = متى
+est-ce que = (أداة السؤال)
+vous = أنتم
+arrivez = تصلون | l=arriver | n=ez تُنطق «يه»
+
+> À midi, à la gare de Lyon. | عند الظهر، في محطة ليون.
+À = عند / في
+midi = الظهر | g=m
+à la = في الـ
+gare = محطة قطار | g=f
+de = (حرف إضافة)
+Lyon = ليون | n=Gare de Lyon محطة في باريس سُميت كذلك لأن قطاراتها تذهب إلى ليون
+
+> Parfait. Qui cuisine samedi soir ? Toi ou papa ? | ممتاز. من سيطبخ مساء السبت؟ أنتِ أم بابا؟
+Parfait = ممتاز / مثالي
+Qui = من
+cuisine = يطبخ | l=cuisiner
+samedi = السبت | g=m
+soir = مساء | g=m
+Toi = أنتِ
+ou = أم / أو
+papa = بابا | g=m
+
+> Ton père, bien sûr ! À samedi, ma chérie ! | والدك طبعاً! إلى اللقاء يوم السبت يا عزيزتي!
+Ton = ـك (للمذكر)
+père = أب | g=m
+bien sûr = طبعاً
+À samedi = نلتقي يوم السبت | n=à + موعد = إلى اللقاء في هذا الموعد. مثل: À demain
+ma = ـي (للمؤنث)
+chérie = عزيزتي | l=chéri

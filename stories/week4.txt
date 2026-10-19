@@ -1,0 +1,515 @@
+# الأسبوع الرابع: الماضي والمراجعة
+
+@id 16
+@week 4
+@title Le week-end dernier
+@title_ar عطلة نهاية الأسبوع الماضية
+@summary ليا تحكي لإنيس عن زيارة المتحف وزيارة جارها في المستشفى.
+@grammar_title الماضي المركّب مع avoir
+@grammar الماضي في الكلام اليومي (passé composé) = فعل avoir مصرَّفاً + اسم المفعول. J'ai mangé = أكلتُ.
+@grammar اسم المفعول لأفعال ‎-er ينتهي بـ ‎-é ويُنطق مثل المصدر تماماً. وهناك أفعال شاذة يجب حفظها.
+@table manger → j'ai mangé | أكلتُ
+@table regarder → nous avons regardé | شاهدنا
+@table faire → tu as fait | فعلتَ
+@table prendre → j'ai pris | أخذتُ
+@table avoir → il a eu | حصل له / كان لديه
+@table dormir → j'ai dormi | نمتُ
+
+> Lundi, à l'université, Inès parle avec Léa. | يوم الاثنين، في الجامعة، تتحدث إنيس مع ليا.
+Lundi = يوم الاثنين | g=m
+à = في
+l'université = الجامعة | l=université | g=f
+Inès = إنيس
+parle = تتحدث | l=parler
+avec = مع
+Léa = ليا
+
+> Qu'est-ce que tu as fait ce week-end ? | ماذا فعلتِ في عطلة نهاية الأسبوع؟
+Qu'est-ce que = ماذا
+tu = أنتِ
+as = (فعل مساعد) | l=avoir | n=avoir + اسم المفعول = الماضي
+fait = فعلتِ | l=faire | n=اسم مفعول شاذ من faire
+ce = هذا
+week-end = عطلة نهاية الأسبوع | g=m
+
+> Samedi, j'ai visité le musée d'Orsay avec Karim. | يوم السبت زرتُ متحف أورسيه مع كريم.
+Samedi = يوم السبت | g=m
+j'ai = (فعل مساعد) | l=avoir
+visité = زرتُ | l=visiter
+le = الـ (للمذكر)
+musée = متحف | g=m | n=مذكر رغم أنه ينتهي بـ e
+d'Orsay = أورسيه | n=متحف في باريس مشهور بلوحات الانطباعيين
+avec = مع
+Karim = كريم
+
+> Nous avons regardé les tableaux de Monet pendant trois heures. | شاهدنا لوحات مونيه لمدة ثلاث ساعات.
+Nous = نحن
+avons = (فعل مساعد) | l=avoir
+regardé = شاهدنا | l=regarder
+les = الـ (للجمع)
+tableaux = لوحات | l=tableau | g=m | n=الكلمات المنتهية بـ eau تُجمع بـ x
+de = (حرف إضافة: لوحاتُ مونيه)
+Monet = مونيه | n=رسام فرنسي انطباعي
+pendant = لمدة / خلال
+trois = ثلاث
+heures = ساعات | l=heure | g=f
+
+> Ensuite, nous avons mangé une crêpe dans la rue. | بعد ذلك أكلنا كريب في الشارع.
+Ensuite = بعد ذلك / ثم
+nous = نحن
+avons = (فعل مساعد) | l=avoir
+mangé = أكلنا | l=manger
+une = (أداة نكرة للمؤنث)
+crêpe = كريب | g=f
+dans = في
+la = الـ (للمؤنث)
+rue = شارع | g=f
+
+> Dimanche, j'ai pris le bus pour voir Monsieur Martin à l'hôpital. | يوم الأحد أخذتُ الحافلة لأزور السيد مارتان في المستشفى.
+Dimanche = يوم الأحد | g=m
+j'ai = (فعل مساعد) | l=avoir
+pris = أخذتُ | l=prendre | n=اسم مفعول شاذ من prendre
+le = الـ (للمذكر)
+bus = حافلة | g=m | n=تُنطق الـ s: «بوس»
+pour = لكي
+voir = أرى / أزور
+Monsieur = السيد
+Martin = مارتان
+à = في
+l'hôpital = المستشفى | l=hôpital | g=m
+
+> Il a eu un petit accident, mais il va bien. | تعرّض لحادث صغير، لكنه بخير.
+Il = هو
+a = (فعل مساعد) | l=avoir
+eu = حصل له | l=avoir | n=اسم مفعول avoir. تُنطق «يو»
+un = (أداة نكرة للمذكر)
+petit = صغير
+accident = حادث | g=m
+mais = لكن
+il = هو
+va = يكون (حاله) | l=aller | n=aller bien = يكون بخير
+bien = بخير
+
+> Et toi ? Moi, j'ai dormi tout le week-end ! | وأنتِ؟ أما أنا، فنمتُ طوال عطلة نهاية الأسبوع!
+Et = و
+toi = أنتِ
+Moi = أنا (للتأكيد)
+j'ai = (فعل مساعد) | l=avoir
+dormi = نمتُ | l=dormir
+tout le = طوال الـ | n=tout le week-end = عطلة الأسبوع كلها
+week-end = عطلة نهاية الأسبوع | g=m
+
+
+@id 17
+@week 4
+@title Le voyage à Nice
+@title_ar الرحلة إلى نيس
+@summary أخيراً جاء الصيف ووصل الأصدقاء الثلاثة إلى نيس.
+@grammar_title الماضي المركّب مع être
+@grammar بعض الأفعال، أغلبها أفعال حركة، تأخذ être بدل avoir: aller، partir، arriver، entrer، sortir، rester، tomber، rentrer، venir.
+@grammar ومعها يتبع اسم المفعول الفاعل: نضيف e للمؤنث وs للجمع. Elle est allée، ils sont partis.
+@table il est allé | ذهب
+@table elle est allée | ذهبتْ
+@table ils sont partis | سافروا
+@table elles sont arrivées | وصلنَ
+@table je suis resté(e) | بقيتُ
+
+> En juillet, les trois amis sont partis à Nice. | في يوليو، سافر الأصدقاء الثلاثة إلى نيس.
+En juillet = في يوليو | n=الأشهر مع en: en juillet، en août
+les = الـ (للجمع)
+trois = ثلاثة
+amis = أصدقاء | l=ami | g=m
+sont = (فعل مساعد) | l=être | n=أفعال الحركة تأخذ être في الماضي
+partis = سافروا | l=partir | n=s للجمع لأن الفاعل جمع
+à = إلى
+Nice = نيس
+
+> Ils sont arrivés à la gare le matin. | وصلوا إلى المحطة في الصباح.
+Ils = هم
+sont = (فعل مساعد) | l=être
+arrivés = وصلوا | l=arriver
+à la = إلى الـ
+gare = محطة قطار | g=f
+le matin = في الصباح
+
+> Léa est allée directement à la plage. | ذهبت ليا مباشرة إلى الشاطئ.
+Léa = ليا
+est = (فعل مساعد) | l=être
+allée = ذهبتْ | l=aller | n=e في الآخر لأن ليا مؤنثة. النطق لا يتغير
+directement = مباشرة
+à la = إلى الـ
+plage = شاطئ | g=f
+
+> Elle est entrée dans la mer tout de suite. | دخلت البحر فوراً.
+Elle = هي
+est = (فعل مساعد) | l=être
+entrée = دخلتْ | l=entrer
+dans = في
+la = الـ (للمؤنث)
+mer = بحر | g=f
+tout de suite = فوراً
+
+> Karim est resté à l'hôtel pour dormir. | بقي كريم في الفندق لينام.
+Karim = كريم
+est = (فعل مساعد) | l=être
+resté = بقي | l=rester | n=rester = يبقى، وليس «يرتاح»
+à = في
+l'hôtel = الفندق | l=hôtel | g=m
+pour = لكي
+dormir = ينام
+
+> Le soir, ils sont sortis dans la vieille ville. | في المساء، خرجوا إلى البلدة القديمة.
+Le soir = في المساء
+ils = هم
+sont = (فعل مساعد) | l=être
+sortis = خرجوا | l=sortir
+dans = في
+la = الـ (للمؤنث)
+vieille = قديمة | l=vieux | n=صفة شاذة: vieux ← vieille، وتأتي قبل الاسم
+ville = مدينة | g=f
+
+> Ils ont mangé une salade niçoise et ils ont beaucoup ri. | أكلوا سلطة نيسواز وضحكوا كثيراً.
+Ils = هم
+ont = (فعل مساعد) | l=avoir | n=manger ليس فعل حركة، فيأخذ avoir
+mangé = أكلوا | l=manger
+une = (أداة نكرة للمؤنث)
+salade = سلطة | g=f
+niçoise = نيسواز (من نيس) | l=niçois | n=سلطة مشهورة من نيس بالتونة والبيض والزيتون
+et = و
+ils = هم
+ont = (فعل مساعد) | l=avoir
+beaucoup = كثيراً
+ri = ضحكوا | l=rire
+
+> Inès est tombée amoureuse de Nice. | وقعت إنيس في حب نيس.
+Inès = إنيس
+est = (فعل مساعد) | l=être
+tombée = وقعتْ | l=tomber
+amoureuse = عاشقة | l=amoureux | n=tomber amoureux de = يقع في حب
+de = بـ / في
+Nice = نيس
+
+> Ils sont rentrés à Paris après une semaine. | عادوا إلى باريس بعد أسبوع.
+Ils = هم
+sont = (فعل مساعد) | l=être
+rentrés = عادوا | l=rentrer | n=rentrer = يعود إلى البيت أو المدينة
+à = إلى
+Paris = باريس
+après = بعد
+une = (أداة نكرة للمؤنث)
+semaine = أسبوع | g=f
+
+
+@id 18
+@week 4
+@title Une mauvaise journée
+@title_ar يوم سيئ
+@summary كل شيء يسير بشكل خاطئ مع ليا… حتى المساء.
+@grammar_title النفي في الماضي
+@grammar في الماضي المركّب يحيط ne … pas بالفعل المساعد وحده، ويأتي اسم المفعول بعدهما: Je n'ai pas mangé (لم آكل).
+@grammar ومع être كذلك: Elle n'est pas allée (لم تذهب).
+@table j'ai mangé | أكلتُ
+@table je n'ai pas mangé | لم آكل
+@table il a souri | ابتسم
+@table il n'a pas souri | لم يبتسم
+@table elle n'est pas venue | لم تأتِ
+
+> Hier, Léa a eu une très mauvaise journée. | أمس، قضت ليا يوماً سيئاً جداً.
+Hier = أمس
+Léa = ليا
+a = (فعل مساعد) | l=avoir
+eu = كان لها | l=avoir
+une = (أداة نكرة للمؤنث)
+très = جداً
+mauvaise = سيئة | l=mauvais | n=تأتي قبل الاسم
+journée = يوم | g=f
+
+> Son réveil n'a pas sonné. | منبّهها لم يرنّ.
+Son = ـها (للمذكر) | n=son لأن réveil مذكر
+réveil = منبّه | g=m
+n'a = لم | l=avoir | n=ne + a
+pas = (أداة النفي الثانية)
+sonné = رنّ | l=sonner
+
+> Elle a raté le métro et elle est arrivée en retard. | فاتها المترو ووصلت متأخرة.
+Elle = هي
+a = (فعل مساعد) | l=avoir
+raté = فاتها | l=rater | n=rater = يفوّت / يفشل في
+le = الـ (للمذكر)
+métro = مترو | g=m
+et = و
+elle = هي
+est = (فعل مساعد) | l=être
+arrivée = وصلتْ | l=arriver
+en retard = متأخرة
+
+> Le professeur n'a pas souri. | الأستاذ لم يبتسم.
+Le = الـ (للمذكر)
+professeur = أستاذ | g=m
+n'a = لم | l=avoir
+pas = (أداة النفي الثانية)
+souri = ابتسم | l=sourire
+
+> À midi, elle a perdu son portefeuille. | عند الظهر، أضاعت محفظتها.
+À = عند
+midi = الظهر | g=m
+elle = هي
+a = (فعل مساعد) | l=avoir
+perdu = أضاعت | l=perdre | n=أفعال ‎-re: اسم المفعول ينتهي بـ u
+son = ـها (للمذكر)
+portefeuille = محفظة نقود | g=m | n=porte (يحمل) + feuille (ورقة)
+
+> Elle n'a pas mangé, et elle a eu mal à la tête. | لم تأكل، وأصابها صداع.
+Elle = هي
+n'a = لم | l=avoir
+pas = (أداة النفي الثانية)
+mangé = أكلت | l=manger
+et = و
+elle = هي
+a = (فعل مساعد) | l=avoir
+eu = كان لها | l=avoir
+mal = ألم | g=m | n=avoir mal à la tête = يؤلمه رأسه
+à la = في الـ
+tête = رأس | g=f
+
+> Le soir, elle est rentrée à la maison, très triste. | في المساء، عادت إلى البيت حزينة جداً.
+Le soir = في المساء
+elle = هي
+est = (فعل مساعد) | l=être
+rentrée = عادتْ | l=rentrer
+à la = إلى الـ
+maison = بيت | g=f
+très = جداً
+triste = حزينة
+
+> Mais Chloé a trouvé son portefeuille… dans la cuisine ! | لكن كلوي وجدت محفظتها… في المطبخ!
+Mais = لكن
+Chloé = كلوي
+a = (فعل مساعد) | l=avoir
+trouvé = وجدتْ | l=trouver
+son = ـها (للمذكر)
+portefeuille = محفظة | g=m
+dans = في
+la = الـ (للمؤنث)
+cuisine = مطبخ | g=f
+
+> Léa a ri : « Demain, ça va être une bonne journée ! » | ضحكت ليا: «غداً سيكون يوماً جيداً!»
+Léa = ليا
+a = (فعل مساعد) | l=avoir
+ri = ضحكتْ | l=rire
+Demain = غداً
+ça = هذا
+va = سـ | l=aller
+être = أن يكون
+une = (أداة نكرة للمؤنث)
+bonne = جيدة | l=bon
+journée = يوم | g=f
+
+
+@id 19
+@week 4
+@title Une lettre à Karim
+@title_ar رسالة إلى كريم
+@summary كريم انتقل إلى ليون ليدرس الطبخ، وليا تكتب له رسالة.
+@grammar_title مراجعة الأزمنة الثلاثة
+@grammar في هذه الرسالة ستجد كل ما تعلمته: المضارع لما يحدث الآن، والماضي المركّب لما حدث، وaller + مصدر لما سيحدث.
+@grammar الرسائل الودية تبدأ بـ Cher (لمذكر) أو Chère (لمؤنث)، وتنتهي غالباً بـ Bises أو Grosses bises.
+@table je travaille | أعمل (الآن)
+@table j'ai commencé | بدأتُ (الماضي)
+@table je vais venir | سآتي (المستقبل)
+@table Cher Karim / Chère Inès | عزيزي كريم / عزيزتي إنيس
+@table Grosses bises | قبلات كثيرة (خاتمة ودية)
+
+> Cher Karim, | عزيزي كريم،
+Cher = عزيزي | n=للمؤنث: Chère
+Karim = كريم
+
+> Comment vas-tu à Lyon ? | كيف حالك في ليون؟
+Comment = كيف
+vas-tu = حالك | l=aller | n=Comment vas-tu = كيف حالك (حرفياً: كيف تذهب). صيغة أكثر عناية من Ça va
+à = في
+Lyon = ليون
+
+> Ici, à Paris, tout va bien. | هنا، في باريس، كل شيء على ما يرام.
+Ici = هنا
+à = في
+Paris = باريس
+tout = كل شيء
+va = يسير | l=aller
+bien = جيداً | n=tout va bien = كل شيء على ما يرام
+
+> La semaine dernière, j'ai commencé un nouveau cours de peinture. | الأسبوع الماضي، بدأتُ دورة رسم جديدة.
+La = الـ (للمؤنث)
+semaine = أسبوع | g=f
+dernière = الماضية | l=dernier
+j'ai = (فعل مساعد) | l=avoir
+commencé = بدأتُ | l=commencer
+un = (أداة نكرة للمذكر)
+nouveau = جديد | n=تأتي قبل الاسم
+cours = دورة / درس | g=m
+de = في (دورةُ رسم)
+peinture = الرسم بالألوان | g=f
+
+> Le professeur est génial et j'adore les couleurs. | الأستاذ رائع وأعشق الألوان.
+Le = الـ (للمذكر)
+professeur = أستاذ | g=m
+est = يكون | l=être
+génial = رائع
+et = و
+j'adore = أعشق | l=adorer
+les = الـ (للجمع)
+couleurs = ألوان | l=couleur | g=f
+
+> Chloé travaille beaucoup, mais elle est heureuse. | كلوي تعمل كثيراً، لكنها سعيدة.
+Chloé = كلوي
+travaille = تعمل | l=travailler
+beaucoup = كثيراً
+mais = لكن
+elle = هي
+est = تكون | l=être
+heureuse = سعيدة | l=heureux | n=الصفات المنتهية بـ eux تصبح euse في المؤنث
+
+> Monsieur Martin est sorti de l'hôpital. Il te dit bonjour ! | خرج السيد مارتان من المستشفى. إنه يسلّم عليك!
+Monsieur = السيد
+Martin = مارتان
+est = (فعل مساعد) | l=être
+sorti = خرج | l=sortir
+de = من
+l'hôpital = المستشفى | l=hôpital | g=m
+Il = هو
+te = لك | n=ضمير المفعول يأتي قبل الفعل
+dit = يقول | l=dire
+bonjour = مرحباً | n=dire bonjour à quelqu'un = يسلّم على أحد
+
+> Est-ce que l'école de cuisine est difficile ? | هل مدرسة الطبخ صعبة؟
+Est-ce que = هل
+l'école = المدرسة | l=école | g=f
+de = (حرف إضافة: مدرسةُ الطبخ)
+cuisine = الطبخ | g=f
+est = تكون | l=être
+difficile = صعبة
+
+> Samedi prochain, je vais venir à Lyon pour te voir. | السبت القادم سآتي إلى ليون لأراك.
+Samedi = السبت | g=m
+prochain = القادم
+je = أنا
+vais = سـ | l=aller
+venir = أن آتي
+à = إلى
+Lyon = ليون
+pour = لكي
+te = ـك
+voir = أرى
+
+> Grosses bises, Léa | قبلات كثيرة، ليا
+Grosses = كبيرة / كثيرة | l=gros
+bises = قبلات | l=bise | g=f | n=خاتمة ودية بين الأصدقاء والعائلة
+Léa = ليا
+
+
+@id 20
+@week 4
+@title La fête
+@title_ar الحفلة
+@summary عيد ميلاد ليا، وكل الشخصيات تجتمع… مع مفاجأة.
+@grammar_title مراجعة ختامية
+@grammar أحسنت! في هذه القصة الأخيرة يجتمع كل ما تعلمته. اقرأها أولاً دون أن تضغط على أي كلمة، ثم استمع إليها وتابع النص بعينك.
+@grammar في هذا الشهر تعرّفت على أكثر من ٣٠٠ كلمة وعبارة وعلى أهم ثلاثة أزمنة في الكلام اليومي.
+@table Joyeux anniversaire ! | عيد ميلاد سعيد!
+@table Merci à tous ! | شكراً لكم جميعاً!
+@table Surprise ! | مفاجأة!
+@table vingt et un | واحد وعشرون
+
+> C'est l'anniversaire de Léa. Elle a vingt et un ans ! | إنه عيد ميلاد ليا. عمرها واحد وعشرون عاماً!
+C'est = إنه
+l'anniversaire = عيد الميلاد | l=anniversaire | g=m
+de = (حرف إضافة: عيدُ ميلاد ليا)
+Léa = ليا
+Elle = هي
+a = لديها | l=avoir
+vingt et un = واحد وعشرون | n=وحدها 21 و31 و41… تُكتب مع et
+ans = سنوات | l=an | g=m
+
+> Chloé a préparé un grand gâteau au chocolat. | حضّرت كلوي كعكة شوكولاتة كبيرة.
+Chloé = كلوي
+a = (فعل مساعد) | l=avoir
+préparé = حضّرتْ | l=préparer
+un = (أداة نكرة للمذكر)
+grand = كبير
+gâteau = كعكة | g=m
+au = بالـ | n=à + le. مثل tarte aux pommes
+chocolat = شوكولاتة | g=m
+
+> Inès est venue avec des fleurs. | جاءت إنيس ومعها زهور.
+Inès = إنيس
+est = (فعل مساعد) | l=être
+venue = جاءتْ | l=venir | n=اسم مفعول شاذ من venir
+avec = مع
+des = (أداة نكرة للجمع)
+fleurs = زهور | l=fleur | g=f
+
+> Monsieur Martin a apporté une bouteille de jus de pomme. | أحضر السيد مارتان قارورة عصير تفاح.
+Monsieur = السيد
+Martin = مارتان
+a = (فعل مساعد) | l=avoir
+apporté = أحضر | l=apporter
+une = (أداة نكرة للمؤنث)
+bouteille = قارورة | g=f
+de = من
+jus = عصير | g=m | n=الـ s لا تُنطق: «جو»
+de = (حرف إضافة: عصيرُ تفاح)
+pomme = تفاح | g=f
+
+> Tout à coup, quelqu'un frappe à la porte. | فجأة، يطرق أحدهم الباب.
+Tout à coup = فجأة
+quelqu'un = أحدهم / شخص ما
+frappe = يطرق | l=frapper
+à la = على الـ
+porte = باب | g=f
+
+> C'est Karim ! Il est venu de Lyon en secret. | إنه كريم! لقد جاء من ليون سراً.
+C'est = إنه
+Karim = كريم
+Il = هو
+est = (فعل مساعد) | l=être
+venu = جاء | l=venir
+de = من
+Lyon = ليون
+en secret = سراً
+
+> Surprise ! Joyeux anniversaire, Léa ! | مفاجأة! عيد ميلاد سعيد يا ليا!
+Surprise = مفاجأة | g=f
+Joyeux = سعيد
+anniversaire = عيد ميلاد | g=m
+Léa = ليا
+
+> Léa est très émue. Elle regarde ses amis et sa sœur. | ليا متأثرة جداً. تنظر إلى أصدقائها وأختها.
+Léa = ليا
+est = تكون | l=être
+très = جداً
+émue = متأثرة | l=ému
+Elle = هي
+regarde = تنظر إلى | l=regarder
+ses = ـها (للجمع)
+amis = أصدقاء | l=ami | g=m
+et = و
+sa = ـها (للمؤنث)
+sœur = أخت | g=f
+
+> Merci à tous ! Vous êtes ma deuxième famille. | شكراً لكم جميعاً! أنتم عائلتي الثانية.
+Merci = شكراً
+à = لـ
+tous = الجميع | l=tout | n=تُنطق الـ s هنا: «توس»
+Vous = أنتم
+êtes = تكونون | l=être
+ma = ـي (للمؤنث)
+deuxième = الثانية
+famille = عائلة | g=f
+
+> Et ce soir, on parle seulement français ! | والليلة، لن نتكلم إلا الفرنسية!
+Et = و
+ce soir = الليلة / هذا المساء
+on = نحن
+parle = نتكلم | l=parler | n=مع on يُصرَّف الفعل مثل il
+seulement = فقط
+français = الفرنسية | g=m | n=أسماء اللغات مذكرة وتُكتب بحرف صغير

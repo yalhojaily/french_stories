@@ -1,0 +1,415 @@
+# ═══════════════════════════════════════════════════════════════
+# الأسبوع الأول: التعارف والأساسيات
+#
+# صيغة الملف:
+#   @id، @week، @title (فرنسي)، @title_ar، @summary   ← بيانات القصة
+#   @grammar_title عنوان القاعدة
+#   @grammar فقرة شرح (يمكن تكرارها)
+#   @table الفرنسية | العربية   ← صف في جدول القاعدة
+#   > الجملة الفرنسية | ترجمتها
+#   > الجملة | الترجمة | المتحدث   ← المتحدث اختياري، والجملة بلا متحدث يقرؤها الراوي
+#   @speaker الاسم   ← متحدث افتراضي لكل جمل القصة (مفيد عندما يتكلم شخص واحد طوال القصة)
+#   أسماء المتحدثين وجنسهم في ملف voices.json
+#   الكلمة = معناها في هذا السياق | l=أصل الفعل/المفرد | g=m أو f | n=ملاحظة | s=نص بديل للنطق
+#
+# يجب أن تُذكر كل كلمات الجملة بالترتيب. علامات الترقيم لا تُذكر.
+# العبارة المكونة من أكثر من كلمة (مثل il y a) تُكتب سطراً واحداً.
+# ═══════════════════════════════════════════════════════════════
+
+@id 01
+@week 1
+@title Bonjour !
+@title_ar مرحباً!
+@summary ليا تعرّف بنفسها وبأختها وصديقها كريم.
+@speaker Léa
+@grammar_title فعل être (يكون) والتعريف بالنفس
+@grammar أهم فعل في الفرنسية. العربية تقول «أنا طالبة» بلا فعل، أما الفرنسية فتقول حرفياً «أنا أكونُ طالبة»: Je suis étudiante.
+@grammar للسؤال عن الاسم: Comment tu t'appelles ? والجواب: Je m'appelle…
+@table je suis | أنا أكون
+@table tu es | أنتَ/أنتِ تكون
+@table il / elle est | هو / هي يكون
+@table nous sommes | نحن نكون
+@table vous êtes | أنتم تكونون (أو أنتَ للاحترام)
+@table ils / elles sont | هم / هنّ يكونون
+
+> Bonjour ! Je m'appelle Léa. | مرحباً! اسمي ليا.
+Bonjour = مرحباً / صباح الخير | n=تحية تُقال طوال النهار حتى المساء
+Je = أنا
+m'appelle = اسمي | l=s'appeler | n=حرفياً: «أُنادي نفسي». m' اختصار me قبل حرف العلة
+Léa = ليا | n=اسم علم
+
+> Je suis française. | أنا فرنسية.
+Je = أنا
+suis = أكون | l=être
+française = فرنسية | n=المذكر: français
+
+> J'ai vingt ans. | عمري عشرون سنة.
+J'ai = لديّ | l=avoir | n=الفرنسي يقول «لديّ عشرون سنة» للتعبير عن العمر. J' اختصار je
+vingt = عشرون
+ans = سنوات | l=an | g=m
+
+> J'habite à Paris avec ma sœur Chloé. | أسكن في باريس مع أختي كلوي.
+J'habite = أسكن | l=habiter | n=الـ h لا تُنطق، لذلك تُختصر je إلى j'
+à = في | n=تأتي قبل أسماء المدن
+Paris = باريس
+avec = مع
+ma = ـي (للمؤنث) | n=ma مع المؤنث، mon مع المذكر
+sœur = أخت | g=f
+Chloé = كلوي
+
+> Elle est infirmière. | هي ممرضة.
+Elle = هي
+est = تكون | l=être
+infirmière = ممرضة | n=المذكر: infirmier
+
+> Je suis étudiante. | أنا طالبة.
+Je = أنا
+suis = أكون | l=être
+étudiante = طالبة | n=المذكر: étudiant
+
+> Mon ami s'appelle Karim. | صديقي اسمه كريم.
+Mon = ـي (للمذكر)
+ami = صديق | g=m
+s'appelle = اسمه | l=s'appeler
+Karim = كريم
+
+> Il est très sympa. | هو لطيف جداً.
+Il = هو
+est = يكون | l=être
+très = جداً
+sympa = لطيف | n=اختصار sympathique، شائع جداً في الكلام
+
+> Et toi ? Comment tu t'appelles ? | وأنت؟ ما اسمك؟
+Et = و
+toi = أنت | n=ضمير منفصل يُستعمل للتأكيد وبعد «و»
+Comment = كيف | n=Comment tu t'appelles = ما اسمك؟ (حرفياً: كيف تُنادى؟)
+tu = أنتَ / أنتِ | n=للأصدقاء والعائلة فقط
+t'appelles = تُنادى | l=s'appeler
+
+
+@id 02
+@week 1
+@title Au café
+@title_ar في المقهى
+@summary ليا تطلب قهوة من صديقها كريم الذي يعمل في المقهى.
+@grammar_title أدوات النكرة: un و une
+@grammar كل اسم فرنسي إما مذكر أو مؤنث، والأداة تكشف ذلك: un café (مذكر)، une bouteille (مؤنث). احفظ الكلمة دائماً مع أداتها.
+@grammar للطلب بأدب: Je voudrais… (أودّ…) وفي النهاية s'il te plaît للصديق أو s'il vous plaît للغريب.
+@table un café | قهوة (مذكر)
+@table une bouteille | قارورة (مؤنث)
+@table des croissants | كرواسونات (جمع)
+@table s'il te plaît | من فضلك (للصديق)
+@table s'il vous plaît | من فضلك (رسمي)
+
+> Léa entre dans un café. | تدخل ليا إلى مقهى.
+Léa = ليا
+entre = تدخل | l=entrer
+dans = في / إلى داخل
+un = (أداة نكرة للمذكر) | n=un قبل الاسم المذكر، une قبل المؤنث
+café = مقهى | g=m | n=تعني أيضاً «قهوة»
+
+> Karim travaille ici. | كريم يعمل هنا.
+Karim = كريم
+travaille = يعمل | l=travailler
+ici = هنا
+
+> Salut, Léa ! Ça va ? | أهلاً يا ليا! كيف الحال؟
+Salut = أهلاً | n=تحية غير رسمية بين الأصدقاء
+Léa = ليا
+Ça va = كيف الحال؟ | n=عبارة: سؤالاً تعني «كيف الحال؟» وجواباً تعني «بخير»
+
+> Ça va bien, merci. | بخير، شكراً.
+Ça va = الحال (ماشية) | n=Ça va bien = أنا بخير
+bien = جيداً
+merci = شكراً
+
+> Je voudrais un café et un croissant, s'il te plaît. | أريد قهوة وكرواسون، من فضلك.
+Je = أنا
+voudrais = أودّ | l=vouloir | n=صيغة مهذبة من «أريد». أنسب للطلب من je veux
+un = (أداة نكرة للمذكر)
+café = قهوة | g=m
+et = و
+un = (أداة نكرة للمذكر)
+croissant = كرواسون | g=m
+s'il te plaît = من فضلك | n=للصديق. للغريب: s'il vous plaît
+
+> Un café ? Ou un thé ? | قهوة؟ أم شاي؟
+Un = (أداة نكرة للمذكر)
+café = قهوة | g=m
+Ou = أو / أم
+un = (أداة نكرة للمذكر)
+thé = شاي | g=m
+
+> Un café, et une bouteille d'eau. | قهوة، وقارورة ماء.
+Un = (أداة نكرة للمذكر)
+café = قهوة | g=m
+et = و
+une = (أداة نكرة للمؤنث)
+bouteille = قارورة | g=f
+d'eau = ماء | l=eau | g=f | n=de + eau. تُختصر de إلى d' قبل حرف العلة
+
+> Voilà ! Ça fait cinq euros. | تفضّلي! المجموع خمسة يورو.
+Voilà = تفضّل / ها هو
+Ça fait = المجموع | l=faire | n=عبارة للحساب: «هذا يساوي»
+cinq = خمسة
+euros = يورو | l=euro | g=m
+
+> Merci, Karim. Bonne journée ! | شكراً يا كريم. يوماً سعيداً!
+Merci = شكراً
+Karim = كريم
+Bonne = طيب / سعيد | l=bon | n=مؤنث bon لأن journée مؤنثة
+journée = يوم / نهار | g=f
+
+
+@id 03
+@week 1
+@title Ma famille
+@title_ar عائلتي
+@summary ليا تعرّفنا بوالديها اللذين يسكنان في ليون.
+@grammar_title فعل avoir (يملك) وضمائر الملكية
+@grammar avoir يعني «يملك / لديه»، ويُستعمل للعمر: J'ai vingt ans.
+@grammar ضمير الملكية يتبع جنس الشيء المملوك لا المالك: mon père (أبي)، ma mère (أمي)، mes parents (والداي).
+@table j'ai | لديّ
+@table tu as | لديك
+@table il / elle a | لديه / لديها
+@table nous avons | لدينا
+@table vous avez | لديكم
+@table ils / elles ont | لديهم
+@table mon / ma / mes | ـي (مذكر / مؤنث / جمع)
+
+> Voici ma famille. | هذه عائلتي.
+Voici = هذه / ها هي
+ma = ـي (للمؤنث)
+famille = عائلة | g=f
+
+> Mon père s'appelle Paul. | اسم أبي بول.
+Mon = ـي (للمذكر)
+père = أب | g=m
+s'appelle = اسمه | l=s'appeler
+Paul = بول
+
+> Il a cinquante ans. | عمره خمسون سنة.
+Il = هو
+a = لديه | l=avoir
+cinquante = خمسون
+ans = سنوات | l=an | g=m
+
+> Ma mère s'appelle Sophie. Elle est professeure. | اسم أمي صوفي. هي معلمة.
+Ma = ـي (للمؤنث)
+mère = أم | g=f
+s'appelle = اسمها | l=s'appeler
+Sophie = صوفي
+Elle = هي
+est = تكون | l=être
+professeure = معلمة / أستاذة | n=المذكر: professeur
+
+> Mes parents habitent à Lyon. | والداي يسكنان في ليون.
+Mes = ـي (للجمع)
+parents = والدان / أهل | l=parent | g=m
+habitent = يسكنون | l=habiter | n=نهاية ent لا تُنطق
+à = في
+Lyon = ليون | n=ثالث أكبر مدن فرنسا
+
+> J'ai une sœur, mais je n'ai pas de frère. | لديّ أخت، لكن ليس لديّ أخ.
+J'ai = لديّ | l=avoir
+une = (أداة نكرة للمؤنث)
+sœur = أخت | g=f
+mais = لكن
+je = أنا
+n'ai = لا أملك | l=avoir | n=n' = ne للنفي. النفي يحيط بالفعل: ne … pas
+pas = (أداة النفي الثانية)
+de = (بدل un بعد النفي) | n=بعد النفي تتحول un و une و des إلى de
+frère = أخ | g=m
+
+> Ma sœur Chloé a vingt-cinq ans. | أختي كلوي عمرها خمس وعشرون سنة.
+Ma = ـي (للمؤنث)
+sœur = أخت | g=f
+Chloé = كلوي
+a = لديها | l=avoir
+vingt-cinq = خمسة وعشرون
+ans = سنوات | l=an | g=m
+
+> Nous avons aussi un chat. Il s'appelle Minou. | لدينا أيضاً قط. اسمه مينو.
+Nous = نحن
+avons = لدينا | l=avoir
+aussi = أيضاً
+un = (أداة نكرة للمذكر)
+chat = قط | g=m | n=الـ t الأخيرة لا تُنطق: «شا»
+Il = هو
+s'appelle = اسمه | l=s'appeler
+Minou = مينو | n=اسم شائع للقطط في فرنسا
+
+> J'aime beaucoup ma famille. | أحب عائلتي كثيراً.
+J'aime = أحب | l=aimer
+beaucoup = كثيراً
+ma = ـي (للمؤنث)
+famille = عائلة | g=f
+
+
+@id 04
+@week 1
+@title Mon appartement
+@title_ar شقتي
+@summary جولة في شقة ليا الصغيرة، ولقاء الجار السيد مارتان.
+@grammar_title أدوات التعريف و il y a
+@grammar أدوات التعريف: le للمذكر، la للمؤنث، les للجمع، وl' قبل حرف العلة: le salon، la cuisine، les fenêtres، l'appartement.
+@grammar il y a تعني «يوجد / توجد» للمفرد والجمع معاً، ولا تتغير أبداً.
+@table le salon | الصالة (مذكر)
+@table la cuisine | المطبخ (مؤنث)
+@table l'appartement | الشقة (قبل حرف علة)
+@table les fenêtres | النوافذ (جمع)
+@table il y a | يوجد / توجد
+
+> J'habite dans un petit appartement. | أسكن في شقة صغيرة.
+J'habite = أسكن | l=habiter
+dans = في
+un = (أداة نكرة للمذكر)
+petit = صغير
+appartement = شقة | g=m
+
+> Il y a deux chambres, une cuisine et un salon. | فيها غرفتا نوم ومطبخ وصالة.
+Il y a = يوجد / توجد | n=عبارة ثابتة لا تتغير مع الجمع
+deux = اثنان
+chambres = غرف نوم | l=chambre | g=f
+une = (أداة نكرة للمؤنث)
+cuisine = مطبخ | g=f
+et = و
+un = (أداة نكرة للمذكر)
+salon = صالة جلوس | g=m
+
+> La cuisine est petite, mais le salon est grand. | المطبخ صغير، لكن الصالة كبيرة.
+La = الـ (للمؤنث)
+cuisine = مطبخ | g=f
+est = يكون | l=être
+petite = صغيرة | l=petit | n=الصفة تتبع جنس الاسم: petit ← petite
+mais = لكن
+le = الـ (للمذكر)
+salon = صالة | g=m
+est = يكون | l=être
+grand = كبير
+
+> Dans le salon, il y a un canapé et une table. | في الصالة توجد أريكة وطاولة.
+Dans = في
+le = الـ (للمذكر)
+salon = صالة | g=m
+il y a = توجد
+un = (أداة نكرة للمذكر)
+canapé = أريكة | g=m
+et = و
+une = (أداة نكرة للمؤنث)
+table = طاولة | g=f
+
+> Les fenêtres sont grandes. | النوافذ كبيرة.
+Les = الـ (للجمع)
+fenêtres = نوافذ | l=fenêtre | g=f
+sont = تكون | l=être
+grandes = كبيرة | l=grand | n=مؤنث وجمع: grand + e + s
+
+> Mon lit est à côté de la fenêtre. | سريري بجانب النافذة.
+Mon = ـي (للمذكر)
+lit = سرير | g=m
+est = يكون | l=être
+à côté de = بجانب
+la = الـ (للمؤنث)
+fenêtre = نافذة | g=f
+
+> Notre voisin, Monsieur Martin, habite en face. | جارنا، السيد مارتان، يسكن في المقابل.
+Notre = ـنا
+voisin = جار | g=m
+Monsieur = السيد | n=تُنطق «مُسيو»
+Martin = مارتان
+habite = يسكن | l=habiter
+en face = في المقابل
+
+> Il a un chien très gentil. | لديه كلب لطيف جداً.
+Il = هو
+a = لديه | l=avoir
+un = (أداة نكرة للمذكر)
+chien = كلب | g=m
+très = جداً
+gentil = لطيف
+
+> J'aime mon appartement ! | أحب شقتي!
+J'aime = أحب | l=aimer
+mon = ـي (للمذكر)
+appartement = شقة | g=m
+
+
+@id 05
+@week 1
+@title Mes amis
+@title_ar أصدقائي
+@summary ليا تصف كريم وصديقتها الإيطالية إنيس.
+@grammar_title الصفات تتبع الاسم
+@grammar الصفة تتغير حسب جنس الموصوف وعدده: نضيف e للمؤنث وs للجمع. Il est grand ← Elle est grande.
+@grammar بعض الصفات تتغير أكثر: italien ← italienne، gentil ← gentille. والصفة المنتهية بـ e لا تتغير: drôle.
+@table il est grand | هو طويل
+@table elle est grande | هي طويلة
+@table ils sont grands | هم طوال
+@table elles sont grandes | هنّ طويلات
+@table italien → italienne | إيطالي ← إيطالية
+
+> Karim est mon meilleur ami. | كريم أفضل أصدقائي.
+Karim = كريم
+est = يكون | l=être
+mon = ـي (للمذكر)
+meilleur = أفضل
+ami = صديق | g=m
+
+> Il a vingt-deux ans. | عمره اثنان وعشرون عاماً.
+Il = هو
+a = لديه | l=avoir
+vingt-deux = اثنان وعشرون
+ans = سنوات | l=an | g=m
+
+> Il est grand et brun. | هو طويل وأسمر الشعر.
+Il = هو
+est = يكون | l=être
+grand = طويل | n=مع الأشخاص تعني «طويل القامة»
+et = و
+brun = أسمر الشعر
+
+> Il est drôle et très gentil. | هو مضحك ولطيف جداً.
+Il = هو
+est = يكون | l=être
+drôle = مضحك
+et = و
+très = جداً
+gentil = لطيف
+
+> Mon amie Inès est italienne. | صديقتي إنيس إيطالية.
+Mon = ـي | n=نقول mon amie لا ma amie، لأن amie تبدأ بحرف علة
+amie = صديقة | l=ami | g=f | n=تُنطق مثل ami تماماً
+Inès = إنيس
+est = تكون | l=être
+italienne = إيطالية | l=italien
+
+> Elle est blonde et elle est très intelligente. | هي شقراء وذكية جداً.
+Elle = هي
+est = تكون | l=être
+blonde = شقراء | l=blond
+et = و
+elle = هي
+est = تكون | l=être
+très = جداً
+intelligente = ذكية | l=intelligent
+
+> Nous sommes étudiants à l'université. | نحن طلاب في الجامعة.
+Nous = نحن
+sommes = نكون | l=être
+étudiants = طلاب | l=étudiant | g=m | n=المذكر يُستعمل للمجموعة المختلطة
+à = في
+l'université = الجامعة | l=université | g=f | n=la تصبح l' قبل حرف العلة
+
+> Le soir, nous sommes souvent ensemble. | في المساء نكون معاً غالباً.
+Le soir = في المساء | n=حرفياً «المساء». مع أوقات اليوم تعني «عادةً في ذلك الوقت»
+nous = نحن
+sommes = نكون | l=être
+souvent = غالباً
+ensemble = معاً
+
+> Mes amis sont formidables ! | أصدقائي رائعون!
+Mes = ـي (للجمع)
+amis = أصدقاء | l=ami | g=m
+sont = يكونون | l=être
+formidables = رائعون | l=formidable

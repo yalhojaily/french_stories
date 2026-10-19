@@ -1,0 +1,486 @@
+# الأسبوع الثالث: الحركة والرغبات
+
+@id 11
+@week 3
+@title En train
+@title_ar في القطار
+@summary ليا وكريم يسافران بالقطار إلى ليون لزيارة أهل ليا.
+@grammar_title فعل aller والمستقبل القريب
+@grammar aller (يذهب) فعل غير منتظم يجب حفظه.
+@grammar وهو مفتاح المستقبل السهل: aller + مصدر = «سوف». Je vais dormir = سأنام.
+@table je vais | أذهب
+@table tu vas | تذهب
+@table il / elle va | يذهب / تذهب
+@table nous allons | نذهب
+@table vous allez | تذهبون
+@table ils / elles vont | يذهبون
+@table je vais acheter | سأشتري
+
+> Ce vendredi, Léa et Karim vont à Lyon en train. | هذه الجمعة، تذهب ليا وكريم إلى ليون بالقطار.
+Ce = هذا
+vendredi = الجمعة | g=m
+Léa = ليا
+et = و
+Karim = كريم
+vont = يذهبون | l=aller
+à = إلى
+Lyon = ليون
+en train = بالقطار | n=وسائل النقل مع en: en train، en voiture، en avion
+
+> Ils vont chez les parents de Léa. | يذهبان إلى بيت والدَي ليا.
+Ils = هم
+vont = يذهبون | l=aller
+chez = إلى بيت
+les = الـ (للجمع)
+parents = والدان | l=parent | g=m
+de = (حرف إضافة: والدا ليا)
+Léa = ليا
+
+> Le train part à dix heures de la gare de Lyon. | ينطلق القطار في العاشرة من محطة ليون.
+Le = الـ (للمذكر)
+train = قطار | g=m
+part = ينطلق | l=partir
+à = في
+dix = عشرة
+heures = ساعات | l=heure | g=f
+de = من
+la = الـ (للمؤنث)
+gare = محطة قطار | g=f
+de = (حرف إضافة)
+Lyon = ليون
+
+> Le voyage dure deux heures. | تستغرق الرحلة ساعتين.
+Le = الـ (للمذكر)
+voyage = رحلة | g=m
+dure = تستغرق | l=durer
+deux = اثنان
+heures = ساعات | l=heure | g=f
+
+> Tu vas au wagon-bar ? demande Léa. | هل ستذهب إلى عربة المقهى؟ تسأل ليا.
+Tu = أنت
+vas = تذهب | l=aller
+au = إلى الـ
+wagon-bar = عربة المقهى | g=m | n=عربة في القطار تبيع الأكل والمشروبات
+demande = تسأل | l=demander | n=بعد الكلام المنقول يُقلب الفعل والفاعل: demande Léa
+Léa = ليا
+
+> Oui, je vais acheter des sandwichs. Tu veux quelque chose ? | نعم، سأشتري شطائر. هل تريدين شيئاً؟
+Oui = نعم
+je = أنا
+vais = سـ (أذهب) | l=aller | n=je vais + مصدر = المستقبل القريب
+acheter = أن أشتري | n=مصدر
+des = (أداة نكرة للجمع)
+sandwichs = شطائر | l=sandwich | g=m
+Tu = أنتِ
+veux = تريد | l=vouloir
+quelque chose = شيئاً
+
+> Non merci, je vais dormir un peu. | لا شكراً، سأنام قليلاً.
+Non = لا
+merci = شكراً
+je = أنا
+vais = سـ | l=aller
+dormir = أن أنام
+un peu = قليلاً
+
+> Par la fenêtre, on voit des champs et des vaches. | من النافذة نرى حقولاً وأبقاراً.
+Par = من خلال
+la = الـ (للمؤنث)
+fenêtre = نافذة | g=f
+on = نحن / المرء | n=on تعني nous في الكلام اليومي، والفعل معها يُصرَّف مثل il
+voit = يرى | l=voir
+des = (أداة نكرة للجمع)
+champs = حقول | l=champ | g=m
+et = و
+des = (أداة نكرة للجمع)
+vaches = أبقار | l=vache | g=f
+
+> « Dans une heure, nous allons arriver ! » pense Léa. | «بعد ساعة سنصل!» تفكر ليا.
+Dans = بعد (للوقت) | n=dans une heure = بعد ساعة من الآن
+une = واحدة
+heure = ساعة | g=f
+nous = نحن
+allons = سـ | l=aller
+arriver = أن نصل
+pense = تفكر | l=penser
+Léa = ليا
+
+
+@id 12
+@week 3
+@title Au restaurant
+@title_ar في المطعم
+@summary العشاء مع أهل ليا في مطعم بمدينة ليون.
+@grammar_title vouloir وpouvoir وprendre
+@grammar ثلاثة أفعال غير منتظمة كثيرة الاستعمال: vouloir (يريد)، pouvoir (يستطيع)، prendre (يأخذ).
+@grammar بعد vouloir وpouvoir يأتي الفعل الثاني في المصدر: Je peux voir… (هل يمكنني أن أرى…).
+@table je veux · je peux · je prends | أريد · أستطيع · آخذ
+@table tu veux · tu peux · tu prends | تريد · تستطيع · تأخذ
+@table il veut · il peut · il prend | يريد · يستطيع · يأخذ
+@table vous voulez · vous pouvez · vous prenez | تريدون · تستطيعون · تأخذون
+@table ils veulent · ils peuvent · ils prennent | يريدون · يستطيعون · يأخذون
+
+> Le soir, toute la famille va au restaurant. | في المساء، تذهب العائلة كلها إلى المطعم.
+Le soir = في المساء
+toute = كل | l=tout | n=toute la famille = العائلة كلها
+la = الـ (للمؤنث)
+famille = عائلة | g=f
+va = تذهب | l=aller
+au = إلى الـ
+restaurant = مطعم | g=m
+
+> Bonsoir, une table pour cinq personnes, s'il vous plaît. | مساء الخير، طاولة لخمسة أشخاص من فضلك.
+Bonsoir = مساء الخير
+une = (أداة نكرة للمؤنث)
+table = طاولة | g=f
+pour = لـ
+cinq = خمسة
+personnes = أشخاص | l=personne | g=f
+s'il vous plaît = من فضلك
+
+> Bien sûr. Vous pouvez vous asseoir ici. | بالطبع. يمكنكم الجلوس هنا.
+Bien sûr = بالطبع
+Vous = أنتم
+pouvez = تستطيعون | l=pouvoir
+vous asseoir = أن تجلسوا | l=s'asseoir
+ici = هنا
+
+> Qu'est-ce que vous voulez boire ? | ماذا تريدون أن تشربوا؟
+Qu'est-ce que = ماذا
+vous = أنتم
+voulez = تريدون | l=vouloir
+boire = أن تشربوا
+
+> De l'eau, s'il vous plaît. Et pour manger, je prends le poulet. | ماءً من فضلك. وللأكل آخذ الدجاج.
+De l'eau = ماء (بعض الماء) | n=أداة التجزئة قبل حرف علة: de l'
+s'il vous plaît = من فضلك
+Et = و
+pour = لـ
+manger = الأكل
+je = أنا
+prends = آخذ | l=prendre | n=في المطعم prendre تعني «أطلب»
+le = الـ (للمذكر)
+poulet = دجاج | g=m
+
+> Karim prend le poisson, et les parents veulent la soupe. | كريم يطلب السمك، والوالدان يريدان الحساء.
+Karim = كريم
+prend = يأخذ | l=prendre
+le = الـ (للمذكر)
+poisson = سمك | g=m
+et = و
+les = الـ (للجمع)
+parents = والدان | l=parent | g=m
+veulent = يريدون | l=vouloir
+la = الـ (للمؤنث)
+soupe = حساء | g=f
+
+> Je peux voir la carte des desserts ? | هل يمكنني رؤية قائمة الحلويات؟
+Je = أنا
+peux = أستطيع | l=pouvoir
+voir = أن أرى
+la = الـ (للمؤنث)
+carte = قائمة الطعام | g=f | n=تعني أيضاً «خريطة» و«بطاقة»
+des = (حرف إضافة: قائمةُ الحلويات) | n=de + les
+desserts = حلويات | l=dessert | g=m
+
+> Ils prennent tous une tarte aux pommes. | يطلبون جميعاً فطيرة تفاح.
+Ils = هم
+prennent = يأخذون | l=prendre
+tous = جميعاً | l=tout | n=هنا تُنطق الـ s: «توس»
+une = (أداة نكرة للمؤنث)
+tarte = فطيرة | g=f
+aux = بالـ | n=à + les = aux. طبق بمكوّن: tarte aux pommes
+pommes = تفاح | l=pomme | g=f
+
+> L'addition, s'il vous plaît ! | الحساب من فضلك!
+L'addition = الحساب / الفاتورة | l=addition | g=f
+s'il vous plaît = من فضلك
+
+
+@id 13
+@week 3
+@title Quel temps fait-il ?
+@title_ar كيف الطقس؟
+@summary نزهة على ضفة نهر الرون ينتهي بها المطر فجأة.
+@grammar_title فعل faire والطقس
+@grammar faire يعني «يفعل / يصنع»، ويُستعمل في وصف الطقس: il fait beau (الجو جميل).
+@grammar للمطر فعل خاص: il pleut (تمطر).
+@table il fait beau | الجو جميل
+@table il fait chaud | الجو حار
+@table il fait froid | الجو بارد
+@table il y a du vent | الجو عاصف
+@table il pleut | تمطر
+@table je fais · nous faisons · ils font | أفعل · نفعل · يفعلون
+
+> Le samedi matin à Lyon, il fait beau. | صباح السبت في ليون، الجو جميل.
+Le samedi matin = صباح السبت
+à = في
+Lyon = ليون
+il = (ضمير الطقس) | n=il هنا لا يعود على شيء، مثل «الجو»
+fait = يكون (الجو) | l=faire | n=il fait + صفة = وصف الطقس
+beau = جميل
+
+> Le soleil brille et il fait chaud. | الشمس مشرقة والجو حار.
+Le = الـ (للمذكر)
+soleil = شمس | g=m | n=مذكر بالفرنسية
+brille = تلمع | l=briller
+et = و
+il fait = الجو | l=faire
+chaud = حار
+
+> Léa et Karim font une promenade au bord du Rhône. | ليا وكريم يتنزهان على ضفة نهر الرون.
+Léa = ليا
+et = و
+Karim = كريم
+font = يفعلون | l=faire | n=faire une promenade = يتنزّه
+une = (أداة نكرة للمؤنث)
+promenade = نزهة | g=f
+au bord du = على ضفة
+Rhône = الرون | n=نهر كبير يمر بمدينة ليون
+
+> Mais l'après-midi, le ciel est gris. | لكن بعد الظهر، السماء رمادية.
+Mais = لكن
+l'après-midi = بعد الظهر | g=m
+le = الـ (للمذكر)
+ciel = سماء | g=m
+est = يكون | l=être
+gris = رمادي
+
+> Il y a du vent et il fait froid. | هناك رياح والجو بارد.
+Il y a = يوجد
+du = بعض
+vent = ريح | g=m
+et = و
+il fait = الجو | l=faire
+froid = بارد
+
+> Tout à coup, il pleut ! | فجأة، تمطر!
+Tout à coup = فجأة
+il = (ضمير الطقس)
+pleut = تمطر | l=pleuvoir
+
+> Zut ! Je n'ai pas de parapluie ! dit Karim. | تبّاً! ليس معي مظلة! يقول كريم.
+Zut = تبّاً | n=تعبير لطيف عن الانزعاج
+Je = أنا
+n'ai = لا أملك | l=avoir
+pas = (أداة النفي الثانية)
+de = (بدل un بعد النفي)
+parapluie = مظلة مطر | g=m | n=para (ضد) + pluie (مطر)
+dit = يقول | l=dire
+Karim = كريم
+
+> Ils courent dans un café et ils boivent un chocolat chaud. | يركضان إلى مقهى ويشربان شوكولاتة ساخنة.
+Ils = هم
+courent = يركضون | l=courir
+dans = إلى داخل
+un = (أداة نكرة للمذكر)
+café = مقهى | g=m
+et = و
+ils = هم
+boivent = يشربون | l=boire
+un = (أداة نكرة للمذكر)
+chocolat = شوكولاتة | g=m
+chaud = ساخن | n=نفس كلمة «حار» في الطقس
+
+> Quand il pleut, c'est bien aussi ! | عندما تمطر، هذا جميل أيضاً!
+Quand = عندما | n=نفس كلمة «متى» في السؤال
+il = (ضمير الطقس)
+pleut = تمطر | l=pleuvoir
+c'est = هذا
+bien = جيد / جميل
+aussi = أيضاً
+
+
+@id 14
+@week 3
+@title Les vêtements
+@title_ar الملابس
+@summary ليا وأمها تبحثان عن فستان لحفلة إنيس.
+@grammar_title الألوان ومطابقة الصفات
+@grammar أغلب الصفات تأتي بعد الاسم: une robe rouge. وبعض الصفات القصيرة الشائعة تأتي قبله: une jolie robe، un petit appartement.
+@grammar الألوان صفات تتبع الاسم في الجنس والعدد: un pull vert، une robe verte، des chaussures vertes.
+@table rouge | أحمر (لا يتغير في المؤنث)
+@table bleu → bleue | أزرق ← زرقاء
+@table vert → verte | أخضر ← خضراء
+@table noir → noire | أسود ← سوداء
+@table blanc → blanche | أبيض ← بيضاء
+@table ce / cette / ces | هذا / هذه / هؤلاء
+
+> Dimanche, Léa et sa mère font du shopping. | يوم الأحد، تتسوّق ليا وأمها.
+Dimanche = يوم الأحد | g=m
+Léa = ليا
+et = و
+sa = ـها (للمؤنث)
+mère = أم | g=f
+font = يفعلون | l=faire | n=faire du shopping = يتسوّق
+du = بعض
+shopping = تسوّق | g=m
+
+> Léa cherche une robe pour la fête d'Inès. | تبحث ليا عن فستان لحفلة إنيس.
+Léa = ليا
+cherche = تبحث عن | l=chercher | n=لا تحتاج حرف جر: chercher une robe
+une = (أداة نكرة للمؤنث)
+robe = فستان | g=f
+pour = لـ
+la = الـ (للمؤنث)
+fête = حفلة | g=f
+d'Inès = إنيس (حفلةُ إنيس) | n=de + Inès
+
+> Regarde cette robe rouge ! Elle est jolie, non ? | انظري إلى هذا الفستان الأحمر! إنه جميل، أليس كذلك؟
+Regarde = انظري | l=regarder | n=صيغة الأمر
+cette = هذه | n=cette للمؤنث، ce للمذكر
+robe = فستان | g=f
+rouge = أحمر
+Elle = هي | n=robe مؤنثة، لذلك نشير إليها بـ elle
+est = تكون | l=être
+jolie = جميلة | l=joli
+non = أليس كذلك؟ | n=في آخر الجملة تعني «أليس كذلك؟»
+
+> Oui, mais elle est trop courte. | نعم، لكنه قصير جداً.
+Oui = نعم
+mais = لكن
+elle = هي
+est = تكون | l=être
+trop = أكثر من اللازم | n=trop ≠ très. trop = زيادة غير مرغوبة
+courte = قصيرة | l=court
+
+> Et cette robe bleue ? Elle est longue et élégante. | وهذا الفستان الأزرق؟ إنه طويل وأنيق.
+Et = و
+cette = هذه
+robe = فستان | g=f
+bleue = زرقاء | l=bleu
+Elle = هي
+est = تكون | l=être
+longue = طويلة | l=long
+et = و
+élégante = أنيقة | l=élégant
+
+> Léa essaie la robe bleue. Elle est parfaite ! | تجرّب ليا الفستان الأزرق. إنه مثالي!
+Léa = ليا
+essaie = تجرّب | l=essayer
+la = الـ (للمؤنث)
+robe = فستان | g=f
+bleue = زرقاء | l=bleu
+Elle = هي
+est = تكون | l=être
+parfaite = مثالية | l=parfait
+
+> Sa mère achète aussi un pull vert et des chaussures noires. | وتشتري أمها أيضاً كنزة خضراء وحذاءً أسود.
+Sa = ـها (للمؤنث)
+mère = أم | g=f
+achète = تشتري | l=acheter
+aussi = أيضاً
+un = (أداة نكرة للمذكر)
+pull = كنزة صوف | g=m
+vert = أخضر
+et = و
+des = (أداة نكرة للجمع)
+chaussures = أحذية | l=chaussure | g=f
+noires = سوداء | l=noir | n=مؤنث وجمع
+
+> C'est combien, tout ça ? Cent vingt euros. | كم ثمن كل هذا؟ مئة وعشرون يورو.
+C'est = هذا
+combien = كم
+tout = كل
+ça = هذا
+Cent = مئة
+vingt = عشرون
+euros = يورو | l=euro | g=m
+
+
+@id 15
+@week 3
+@title Les vacances
+@title_ar العطلة
+@summary الأصدقاء الثلاثة يخططون لرحلة صيفية إلى نيس.
+@grammar_title المستقبل القريب بالتفصيل
+@grammar للحديث عن خطط المستقبل: فعل aller مصرَّفاً + الفعل الثاني في المصدر.
+@grammar في النفي يحيط ne … pas بفعل aller وحده: Je ne vais pas partir.
+@table je vais partir | سأسافر
+@table tu vas nager | ستسبح
+@table elle va réserver | ستحجز
+@table nous allons faire | سنفعل
+@table ils vont aller | سيذهبون
+
+> Les cours vont bientôt finir. | ستنتهي الدروس قريباً.
+Les = الـ (للجمع)
+cours = دروس | g=m
+vont = سـ | l=aller
+bientôt = قريباً
+finir = أن تنتهي
+
+> Cet été, Léa va partir en vacances avec ses amis. | هذا الصيف ستسافر ليا في عطلة مع أصدقائها.
+Cet = هذا | n=ce يصبح cet قبل حرف العلة
+été = صيف | g=m
+Léa = ليا
+va = سـ | l=aller
+partir = أن تسافر
+en vacances = في عطلة | n=vacances دائماً بصيغة الجمع
+avec = مع
+ses = ـها (للجمع)
+amis = أصدقاء | l=ami | g=m
+
+> Ils vont aller à Nice, au bord de la mer. | سيذهبون إلى نيس، على شاطئ البحر.
+Ils = هم
+vont = سـ | l=aller
+aller = أن يذهبوا
+à = إلى
+Nice = نيس | n=مدينة على البحر المتوسط في جنوب فرنسا
+au bord de = على حافة
+la = الـ (للمؤنث)
+mer = بحر | g=f
+
+> Inès va réserver un petit hôtel près de la plage. | ستحجز إنيس فندقاً صغيراً قرب الشاطئ.
+Inès = إنيس
+va = سـ | l=aller
+réserver = أن تحجز
+un = (أداة نكرة للمذكر)
+petit = صغير
+hôtel = فندق | g=m | n=الـ h لا تُنطق
+près de = قرب
+la = الـ (للمؤنث)
+plage = شاطئ | g=f
+
+> Karim va préparer la liste des choses à emporter. | سيجهّز كريم قائمة الأشياء التي سيأخذونها.
+Karim = كريم
+va = سـ | l=aller
+préparer = أن يجهّز
+la = الـ (للمؤنث)
+liste = قائمة | g=f
+des = (حرف إضافة: قائمةُ الأشياء)
+choses = أشياء | l=chose | g=f
+à = لـ | n=à + مصدر = «لكي تُـ…»
+emporter = أن يأخذوا معهم
+
+> Qu'est-ce que nous allons faire là-bas ? demande Inès. | ماذا سنفعل هناك؟ تسأل إنيس.
+Qu'est-ce que = ماذا
+nous = نحن
+allons = سـ | l=aller
+faire = أن نفعل
+là-bas = هناك
+demande = تسأل | l=demander
+Inès = إنيس
+
+> On va nager, manger des glaces et dormir sur la plage ! | سنسبح ونأكل البوظة وننام على الشاطئ!
+On = نحن
+va = سـ | l=aller
+nager = أن نسبح
+manger = أن نأكل
+des = (أداة نكرة للجمع)
+glaces = بوظة | l=glace | g=f | n=تعني أيضاً «جليد» و«مرآة»
+et = و
+dormir = أن ننام
+sur = على
+la = الـ (للمؤنث)
+plage = شاطئ | g=f
+
+> Léa va prendre son carnet pour dessiner la mer. | ستأخذ ليا دفترها لترسم البحر.
+Léa = ليا
+va = سـ | l=aller
+prendre = أن تأخذ
+son = ـها (للمذكر) | n=son لأن carnet مذكر، حتى لو كانت المالكة أنثى
+carnet = دفتر | g=m
+pour = لكي
+dessiner = ترسم
+la = الـ (للمؤنث)
+mer = بحر | g=f
