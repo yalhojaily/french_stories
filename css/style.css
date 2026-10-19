@@ -227,6 +227,9 @@ details.rule-mobile { display: none; }
 .play-main .i-pause { display: none; }
 .playing .play-main .i-play { display: none; }
 .playing .play-main .i-pause { display: block; }
+.play-main .i-restart { display: none; }
+.finished .play-main .i-play { display: none; }
+.finished .play-main .i-restart { display: block; }
 .prog { flex: 1; min-width: 60px; display: grid; gap: 3px; }
 .prog-bar { height: 6px; background: var(--paper-2); border-radius: 6px; overflow: hidden; cursor: pointer; direction: ltr; }
 .prog-bar i { display: block; height: 100%; width: 0; background: var(--ink); border-radius: 6px; }

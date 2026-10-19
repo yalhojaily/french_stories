@@ -188,7 +188,7 @@
     // ثلاثة أوضاع: seg = ملف لكل جملة بصوت متحدثها، file = ملف واحد للقصة، tts = صوت المتصفح
     const audio = story.segs ? new Audio() : story.audio ? new Audio(story.audio) : null;
     let mode = story.segs ? "seg" : audio ? "file" : "tts";
-    let segTimer = 0;
+    let segTimer = 0, finished = false;
     let playing = false, cur = -1, stopAt = null, raf = 0, ttsIdx = 0, ttsOnce = false;
     const bar = $(".player", root), fill = $(".prog-bar i", root), txt = $(".prog-l", root), src = $(".prog-r", root);
     const sentEls = [...root.querySelectorAll(".s")];
@@ -197,14 +197,15 @@
       audio.preload = "auto";
       audio.addEventListener("error", () => { if (mode === "file" || mode === "seg") { mode = "tts"; label(); toast("تعذّر تحميل ملف الصوت، سأستعمل صوت المتصفح"); } });
       audio.addEventListener("ended", () => {
-        if (mode !== "seg") { setPlaying(false); clearHl(); fill.style.width = "100%"; return; }
+        if (mode !== "seg") { finish(); return; }
         segEnd();
       });
     }
     function segEnd() {
         cancelAnimationFrame(raf);
         markWord(null);
-        if (stopAt === "once" || cur >= total - 1) { stopAt = null; setPlaying(false); if (cur >= total - 1) { clearHl(); fill.style.width = "100%"; } return; }
+        if (stopAt === "once") { stopAt = null; setPlaying(false); return; }
+        if (cur >= total - 1) { finish(); return; }
         const next = cur + 1;
         segTimer = setTimeout(() => { if (playing) segFrom(next, false); }, 280);
     }
@@ -215,7 +216,18 @@
     label();
     if (synth && mode === "tts") setTimeout(label, 600);
 
-    function setPlaying(p) { playing = p; bar.classList.toggle("playing", p); if (!p) cancelAnimationFrame(raf); }
+    function setPlaying(p) {
+      playing = p; bar.classList.toggle("playing", p);
+      if (p) { finished = false; bar.classList.remove("finished"); }
+      else cancelAnimationFrame(raf);
+    }
+    // نهاية القصة: زر التشغيل يتحول إلى «من البداية»
+    function finish() {
+      setPlaying(false); clearHl(); fill.style.width = "100%";
+      finished = true; cur = -1; stopAt = null;
+      bar.classList.add("finished");
+      txt.textContent = "انتهت القصة · اضغط للإعادة من البداية";
+    }
     function clearHl() { root.querySelectorAll(".w.hl").forEach((e) => e.classList.remove("hl")); sentEls.forEach((e) => e.classList.remove("on")); }
     function markSentence(i) {
       if (i === cur) return;
@@ -299,7 +311,7 @@
     /* صوت المتصفح: جملة جملة مع تظليل الكلمات إن أمكن */
     function ttsFrom(i, once) {
       ttsIdx = i; ttsOnce = once;
-      if (i >= total) { setPlaying(false); clearHl(); fill.style.width = "100%"; return; }
+      if (i >= total) { finish(); return; }
       markSentence(i);
       fill.style.width = (i / total) * 100 + "%";
       setPlaying(true);
@@ -323,6 +335,7 @@
       toggle() {
         if (playing) return api.pause();
         stopWord();
+        if (finished) return api.restart();
         const start = cur > -1 && cur < total ? cur : 0;
         if (mode === "seg") {
           const cs = story.sentences[start];
@@ -345,7 +358,14 @@
         if (mode === "seg") segFrom(i, once); else if (mode === "file") fileFrom(i, once); else ttsFrom(i, once);
       },
       step(d) { const i = Math.max(0, Math.min(total - 1, (cur < 0 ? 0 : cur) + d)); api.playSentence(i, false); },
-      repeat() { api.playSentence(cur < 0 ? 0 : cur, true); },
+      repeat() { if (finished) return api.restart(); api.playSentence(cur < 0 ? 0 : cur, true); },
+      restart() {
+        stopWord(); api.pause();
+        finished = false; bar.classList.remove("finished"); cur = -1;
+        if (audio && mode === "file") audio.currentTime = 0;
+        if (mode === "seg") segFrom(0, false); else if (mode === "file") fileFrom(0, false); else ttsFrom(0, false);
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      },
       seek(frac) {
         if (mode === "file" && audio.duration) {
           audio.currentTime = frac * audio.duration; stopAt = null;
@@ -364,6 +384,7 @@
     pause: '<svg class="i-pause" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 5h3v14H7zM14 5h3v14h-3z" fill="currentColor" stroke="none"/></svg>',
     prev: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg>',
     next: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 6l-6 6 6 6"/></svg>',
+    restart: '<svg class="i-restart" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12a8 8 0 1 0 2.3-5.7M4 4v4h4"/></svg>',
     repeat: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12a8 8 0 1 0 2.3-5.7M4 4v4h4"/></svg>',
     speaker: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9v6h4l5 4V5L8 9H4z"/><path d="M16 9a4 4 0 0 1 0 6"/></svg>',
     check: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg>',
@@ -470,7 +491,7 @@
           '<div class="rule-card newwords">في هذه القصة <b>' + ar(st._new) + "</b> كلمة جديدة. اضغط على أي كلمة ثم «احفظ للمراجعة» لتعود إليها لاحقاً.</div>" +
         "</aside>" +
         '<div class="player" role="region" aria-label="مشغّل القصة"><div class="player-in">' +
-          '<button class="play-main" id="p-play" aria-label="تشغيل أو إيقاف">' + ICON.play + ICON.pause + "</button>" +
+          '<button class="play-main" id="p-play" aria-label="تشغيل أو إيقاف">' + ICON.play + ICON.pause + ICON.restart + "</button>" +
           '<button class="icon-btn hide-sm" id="p-prev" aria-label="الجملة السابقة">' + ICON.prev + "</button>" +
           '<button class="icon-btn" id="p-rep" aria-label="أعد الجملة">' + ICON.repeat + "</button>" +
           '<button class="icon-btn hide-sm" id="p-next" aria-label="الجملة التالية">' + ICON.next + "</button>" +
