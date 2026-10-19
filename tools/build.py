@@ -263,15 +263,43 @@ def voice_for(who, voices):
     return voices[role], role
 
 
+def legacy_spans(story, cfg, manifest):
+    """إن كان للقصة ملف قديم بصوت واحد ولم يتغير نصها، يرجع (معرّف الصوت القديم، بداية ونهاية كل جملة فيه)."""
+    old = manifest.get("stories", {}).get(story["id"])
+    if not old or not old.get("starts") or not (AUDIO / f"{story['id']}.mp3").exists():
+        return None, []
+    text, offsets = story_text(story)
+    if old.get("hash") != sha(text + f"{cfg['voice']}|{cfg['model']}|{cfg['speed']}"):
+        return None, []  # النص تغيّر أو الإعدادات تغيّرت منذ التوليد القديم
+    st, en, n = old["starts"], old["ends"], len(old["starts"])
+    spans = []
+    for i, (s, off) in enumerate(zip(story["sentences"], offsets)):
+        a, b = min(off, n - 1), min(off + len(s["fr"]) - 1, n - 1)
+        start = max(0.0, st[a] - 0.08)
+        end = en[b] + 0.25
+        if i + 1 < len(offsets):
+            end = min(end, st[min(offsets[i + 1], n - 1)] - 0.02)
+        spans.append((round(start, 3), round(end, 3), off))
+    return cfg["voice"], spans
+
+
 def generate_multi(story, cfg, voices, manifest, force):
-    """يولّد كل جملة بصوت متحدثها في ملف مستقل، مع توقيت كل حرف."""
+    """يولّد كل جملة بصوت متحدثها في ملف مستقل، مع توقيت كل حرف.
+    الجمل التي صوتها هو الصوت القديم تُقتطع من ملف القصة القديم بلا تكلفة."""
     sid, sents, chars = story["id"], story["sentences"], 0
+    legacy_voice, spans = legacy_spans(story, cfg, manifest)
     folder = AUDIO / sid
     folder.mkdir(parents=True, exist_ok=True)
     segs = manifest.setdefault("segments", {}).setdefault(sid, {})
     announced = False
     for i, s in enumerate(sents):
         voice, role = voice_for(s["who"], voices)
+        if legacy_voice and voice == legacy_voice:
+            a, b, off = spans[i]
+            if segs.get(str(i), {}).get("legacy") != [a, b]:
+                segs[str(i)] = {"legacy": [a, b], "off": off, "role": role}
+                print(f"   {i + 1:>2}. [{role:<8}] ♻ من الصوت القديم: {s['fr']}")
+            continue
         prev_t = sents[i - 1]["fr"] if i else None
         next_t = sents[i + 1]["fr"] if i + 1 < len(sents) else None
         h = sha(f"{s['fr']}|{voice}|{cfg['model']}|{cfg['speed']}|{prev_t}|{next_t}")
@@ -376,13 +404,26 @@ def bundle_multi(story, manifest):
     sentences, n_words, all_ok = [], 0, True
     for i, s in enumerate(story["sentences"]):
         seg = segs.get(str(i))
-        mp3 = AUDIO / story["id"] / f"{i}.mp3"
-        ok = bool(seg and seg.get("starts") and mp3.exists())
+        base = 0.0
+        if seg and seg.get("legacy"):
+            old = manifest.get("stories", {}).get(story["id"], {})
+            mp3 = AUDIO / f"{story['id']}.mp3"
+            ok = bool(old.get("starts") and mp3.exists())
+            # توقيتات الملف القديم مطلقة؛ نطرح بداية المقطع لتصبح نسبية للجملة
+            off, base = seg["off"], seg["legacy"][0]
+            starts = [t - base for t in old.get("starts", [])][off:off + len(s["fr"])]
+            ends = [t - base for t in old.get("ends", [])][off:off + len(s["fr"])]
+            src = f"audio/{story['id']}.mp3"
+        else:
+            mp3 = AUDIO / story["id"] / f"{i}.mp3"
+            ok = bool(seg and seg.get("starts") and mp3.exists())
+            starts, ends = (seg["starts"], seg["ends"]) if ok else ([], [])
+            src = f"audio/{story['id']}/{i}.mp3"
+        ok = ok and bool(starts)
         all_ok = all_ok and ok
-        starts, ends = (seg["starts"], seg["ends"]) if ok else ([], [])
 
         def span(a, b):
-            return [round(starts[min(a, len(starts) - 1)], 3), round(ends[min(b, len(ends) - 1)], 3)]
+            return [round(max(0.0, starts[min(a, len(starts) - 1)]), 3), round(ends[min(b, len(ends) - 1)], 3)]
 
         parts = []
         for p in s["parts"]:
@@ -396,8 +437,10 @@ def bundle_multi(story, manifest):
             parts.append(w)
         sent = {"fr": s["fr"], "ar": s["ar"], "parts": parts, "who": s["who"] or ""}
         if ok:
-            sent["a"] = f"audio/{story['id']}/{i}.mp3"
+            sent["a"] = src
             sent["ts"] = span(0, len(s["fr"]) - 1)
+            if seg.get("legacy"):
+                sent["clip"] = seg["legacy"]  # [بداية، نهاية] داخل ملف القصة القديم
             sent["role"] = seg.get("role", "")
         sentences.append(sent)
     entry = {k: story[k] for k in ("id", "week", "title", "title_ar")}

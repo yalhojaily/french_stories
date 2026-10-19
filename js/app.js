@@ -198,14 +198,18 @@
       audio.addEventListener("error", () => { if (mode === "file" || mode === "seg") { mode = "tts"; label(); toast("تعذّر تحميل ملف الصوت، سأستعمل صوت المتصفح"); } });
       audio.addEventListener("ended", () => {
         if (mode !== "seg") { setPlaying(false); clearHl(); fill.style.width = "100%"; return; }
+        segEnd();
+      });
+    }
+    function segEnd() {
+        cancelAnimationFrame(raf);
         markWord(null);
         if (stopAt === "once" || cur >= total - 1) { stopAt = null; setPlaying(false); if (cur >= total - 1) { clearHl(); fill.style.width = "100%"; } return; }
         const next = cur + 1;
         segTimer = setTimeout(() => { if (playing) segFrom(next, false); }, 280);
-      });
     }
     function label() {
-      if (mode === "seg") { const s = story.sentences[cur < 0 ? 0 : cur]; src.textContent = "صوت ElevenLabs · " + (s && s.who ? s.who : "الراوي"); return; }
+      if (mode === "seg") { const s = story.sentences[cur < 0 ? 0 : cur]; src.textContent = "صوت ElevenLabs · " + (s && s.who && !/^(narrator|راوي|الراوي)$/i.test(s.who) ? s.who : "الراوي"); return; }
       src.textContent = mode === "file" ? "صوت ElevenLabs" : (frVoice ? "صوت المتصفح" : "صوت المتصفح (لا يوجد صوت فرنسي)");
     }
     label();
@@ -259,9 +263,13 @@
 
     /* ملف لكل جملة: التوقيتات نسبية لبداية الجملة */
     function segTick() {
-      const t = audio.currentTime, s = story.sentences[cur];
+      const s = story.sentences[cur];
       if (!s) return;
-      fill.style.width = ((cur + (audio.duration ? t / audio.duration : 0)) / total) * 100 + "%";
+      // المقطع المقتطع من ملف القصة القديم: الوقت نسبي لبداية المقطع، وينتهي عند نهايته
+      const base = s.clip ? s.clip[0] : 0, len = s.clip ? s.clip[1] - s.clip[0] : audio.duration;
+      const t = audio.currentTime - base;
+      if (s.clip && t >= len) { audio.pause(); segEnd(); return; }
+      fill.style.width = ((cur + (len ? Math.min(1, t / len) : 0)) / total) * 100 + "%";
       let pi = null;
       s.parts.forEach((p, k) => { if (typeof p !== "string" && p.ts && t >= p.ts[0] - 0.03 && t <= p.ts[1] + 0.06) pi = k; });
       markWord(cur, pi);
@@ -273,9 +281,18 @@
       if (!s || !s.a) { mode = "tts"; label(); ttsFrom(i, once); return; }
       markSentence(i);
       stopAt = once ? "once" : null;
-      audio.src = s.a;
-      audio.playbackRate = state.speed;
-      audio.play().then(() => { audio.playbackRate = state.speed; setPlaying(true); cancelAnimationFrame(raf); raf = requestAnimationFrame(segTick); })
+      const go = () => {
+        if (s.clip) audio.currentTime = s.clip[0];
+        audio.playbackRate = state.speed;
+        return audio.play();
+      };
+      const same = audio.src && audio.src.endsWith(s.a) && audio.readyState >= 1;
+      const ready = same ? Promise.resolve() : new Promise((res, rej) => {
+        audio.addEventListener("loadedmetadata", res, { once: true });
+        audio.addEventListener("error", rej, { once: true });
+        audio.src = s.a;
+      });
+      ready.then(go).then(() => { audio.playbackRate = state.speed; setPlaying(true); cancelAnimationFrame(raf); raf = requestAnimationFrame(segTick); })
         .catch(() => { mode = "tts"; label(); ttsFrom(i, once); });
     }
 
@@ -308,7 +325,9 @@
         stopWord();
         const start = cur > -1 && cur < total ? cur : 0;
         if (mode === "seg") {
-          if (audio.src && audio.currentTime > 0 && !audio.ended) { audio.playbackRate = state.speed; audio.play().then(() => { setPlaying(true); raf = requestAnimationFrame(segTick); }).catch(() => {}); }
+          const cs = story.sentences[start];
+          const inClip = cs && cs.clip ? audio.currentTime > cs.clip[0] && audio.currentTime < cs.clip[1] : audio.currentTime > 0 && !audio.ended;
+          if (audio.src && inClip) { audio.playbackRate = state.speed; audio.play().then(() => { setPlaying(true); raf = requestAnimationFrame(segTick); }).catch(() => {}); }
           else segFrom(audio.ended && start < total - 1 ? start + 1 : start, false);
         } else if (mode === "file") {
           if (audio.currentTime > 0 && !audio.ended && stopAt == null) { audio.playbackRate = state.speed; audio.play().then(() => { setPlaying(true); raf = requestAnimationFrame(tick); }).catch(() => {}); }
