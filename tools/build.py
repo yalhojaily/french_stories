@@ -413,8 +413,11 @@ def build_bundle(stories):
     for story in stories:
         if story["multi"]:
             entry, nw, ok = bundle_multi(story, manifest)
-            out.append(entry); n_words += nw; n_audio += ok
-            continue
+            # إن لم تكتمل أصوات الجمل بعد، نستعمل ملف القصة القديم (صوت واحد) بدل صوت المتصفح
+            legacy = manifest.get("stories", {}).get(story["id"])
+            if ok or not (legacy and (AUDIO / f"{story['id']}.mp3").exists()):
+                out.append(entry); n_words += nw; n_audio += ok
+                continue
         text, offsets = story_text(story)
         timing = manifest.get("stories", {}).get(story["id"])
         mp3 = AUDIO / f"{story['id']}.mp3"
