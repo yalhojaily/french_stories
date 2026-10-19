@@ -304,3 +304,7 @@ details.rule-mobile { display: none; }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation: none !important; transition: none !important; }
 }
+
+.credit { text-align: center; font-size: .78rem; color: var(--muted); padding: 8px var(--gut) 24px; }
+.credit a { color: inherit; }
+body:has(.player) .credit { padding-bottom: 110px; }
