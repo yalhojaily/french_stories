@@ -166,6 +166,7 @@ journée = يوم / نهار | g=f
 @title Ma famille
 @title_ar عائلتي
 @summary ليا تعرّفنا بوالديها اللذين يسكنان في ليون.
+@speaker Léa
 @grammar_title فعل avoir (يملك) وضمائر الملكية
 @grammar avoir يعني «يملك / لديه»، ويُستعمل للعمر: J'ai vingt ans.
 @grammar ضمير الملكية يتبع جنس الشيء المملوك لا المالك: mon père (أبي)، ma mère (أمي)، mes parents (والداي).
@@ -251,6 +252,7 @@ famille = عائلة | g=f
 @title Mon appartement
 @title_ar شقتي
 @summary جولة في شقة ليا الصغيرة، ولقاء الجار السيد مارتان.
+@speaker Léa
 @grammar_title أدوات التعريف و il y a
 @grammar أدوات التعريف: le للمذكر، la للمؤنث، les للجمع، وl' قبل حرف العلة: le salon، la cuisine، les fenêtres، l'appartement.
 @grammar il y a تعني «يوجد / توجد» للمفرد والجمع معاً، ولا تتغير أبداً.
@@ -340,6 +342,7 @@ appartement = شقة | g=m
 @title Mes amis
 @title_ar أصدقائي
 @summary ليا تصف كريم وصديقتها الإيطالية إنيس.
+@speaker Léa
 @grammar_title الصفات تتبع الاسم
 @grammar الصفة تتغير حسب جنس الموصوف وعدده: نضيف e للمؤنث وs للجمع. Il est grand ← Elle est grande.
 @grammar بعض الصفات تتغير أكثر: italien ← italienne، gentil ← gentille. والصفة المنتهية بـ e لا تتغير: drôle.
