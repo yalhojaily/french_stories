@@ -101,29 +101,29 @@ t'appelles = تُنادى | l=s'appeler
 @table s'il te plaît | من فضلك (للصديق)
 @table s'il vous plaît | من فضلك (رسمي)
 
-> Léa entre dans un café. | تدخل ليا إلى مقهى.
+> Léa entre dans un café. | تدخل ليا إلى مقهى. | narrator
 Léa = ليا
 entre = تدخل | l=entrer
 dans = في / إلى داخل
 un = (أداة نكرة للمذكر) | n=un قبل الاسم المذكر، une قبل المؤنث
 café = مقهى | g=m | n=تعني أيضاً «قهوة»
 
-> Karim travaille ici. | كريم يعمل هنا.
+> Karim travaille ici. | كريم يعمل هنا. | narrator
 Karim = كريم
 travaille = يعمل | l=travailler
 ici = هنا
 
-> Salut, Léa ! Ça va ? | أهلاً يا ليا! كيف الحال؟
+> Salut, Léa ! Ça va ? | أهلاً يا ليا! كيف الحال؟ | Karim
 Salut = أهلاً | n=تحية غير رسمية بين الأصدقاء
 Léa = ليا
 Ça va = كيف الحال؟ | n=عبارة: سؤالاً تعني «كيف الحال؟» وجواباً تعني «بخير»
 
-> Ça va bien, merci. | بخير، شكراً.
+> Ça va bien, merci. | بخير، شكراً. | Léa
 Ça va = الحال (ماشية) | n=Ça va bien = أنا بخير
 bien = جيداً
 merci = شكراً
 
-> Je voudrais un café et un croissant, s'il te plaît. | أريد قهوة وكرواسون، من فضلك.
+> Je voudrais un café et un croissant, s'il te plaît. | أريد قهوة وكرواسون، من فضلك. | Léa
 Je = أنا
 voudrais = أودّ | l=vouloir | n=صيغة مهذبة من «أريد». أنسب للطلب من je veux
 un = (أداة نكرة للمذكر)
@@ -133,14 +133,14 @@ un = (أداة نكرة للمذكر)
 croissant = كرواسون | g=m
 s'il te plaît = من فضلك | n=للصديق. للغريب: s'il vous plaît
 
-> Un café ? Ou un thé ? | قهوة؟ أم شاي؟
+> Un café ? Ou un thé ? | قهوة؟ أم شاي؟ | Karim
 Un = (أداة نكرة للمذكر)
 café = قهوة | g=m
 Ou = أو / أم
 un = (أداة نكرة للمذكر)
 thé = شاي | g=m
 
-> Un café, et une bouteille d'eau. | قهوة، وقارورة ماء.
+> Un café, et une bouteille d'eau. | قهوة، وقارورة ماء. | Léa
 Un = (أداة نكرة للمذكر)
 café = قهوة | g=m
 et = و
@@ -148,13 +148,13 @@ une = (أداة نكرة للمؤنث)
 bouteille = قارورة | g=f
 d'eau = ماء | l=eau | g=f | n=de + eau. تُختصر de إلى d' قبل حرف العلة
 
-> Voilà ! Ça fait cinq euros. | تفضّلي! المجموع خمسة يورو.
+> Voilà ! Ça fait cinq euros. | تفضّلي! المجموع خمسة يورو. | Karim
 Voilà = تفضّل / ها هو
 Ça fait = المجموع | l=faire | n=عبارة للحساب: «هذا يساوي»
 cinq = خمسة
 euros = يورو | l=euro | g=m
 
-> Merci, Karim. Bonne journée ! | شكراً يا كريم. يوماً سعيداً!
+> Merci, Karim. Bonne journée ! | شكراً يا كريم. يوماً سعيداً! | Léa
 Merci = شكراً
 Karim = كريم
 Bonne = طيب / سعيد | l=bon | n=مؤنث bon لأن journée مؤنثة
